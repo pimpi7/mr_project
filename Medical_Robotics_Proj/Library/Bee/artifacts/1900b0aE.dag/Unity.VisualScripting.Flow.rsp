@@ -398,6 +398,8 @@
 -r:"Library/PackageCache/com.unity.collections@d49facba0036/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.robotics.urdf-importer@4ed58f8d00fe/Runtime/UnityMeshImporter/Plugins/AssimpNet/AssimpNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
@@ -811,6 +813,15 @@
 "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/UnitCategoryConverter.cs"
 "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/UnitPortDefinitionCollection.cs"
 "Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/UnitPreservation.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/AbstractMaterialInterpolate.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/DebugLogGltf.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/InterpolateHelper.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/InterpolateMember.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/MaterialColorInterpolate.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/MaterialFloatInterpolate.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/MaterialOffsetInterpolate.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/MaterialScaleInterpolate.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Runtime/Scripts/Interactivity/VisualScripting/Units/VariableInterpolate.cs"
 -langversion:9.0
 /deterministic
 /optimize+

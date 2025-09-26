@@ -397,6 +397,8 @@
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@031a54704bff/net40/unity-custom/nunit.framework.dll"
 -r:"Library/PackageCache/com.unity.nuget.mono-cecil@d78732e851eb/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.robotics.urdf-importer@4ed58f8d00fe/Runtime/UnityMeshImporter/Plugins/AssimpNet/AssimpNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
@@ -445,6 +447,13 @@
 "Library/PackageCache/com.unity.ugui@38c58105e446/Editor/UGUI/UI/SpriteDrawUtility.cs"
 "Library/PackageCache/com.unity.ugui@38c58105e446/Editor/UGUI/UI/TextEditor.cs"
 "Library/PackageCache/com.unity.ugui@38c58105e446/Editor/UGUI/UI/ToggleEditor.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/AsyncHelpers.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/AvatarUtils.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/GLTFMaterialHelper.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/HumanoidSetup.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/TextureImporterHelper.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/UnityGltfShaderUpgradeMeta.cs"
+"Library/PackageCache/org.khronos.unitygltf@aae262370da5/Editor/Scripts/Internal/UnityGLTFTabbedEditor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
