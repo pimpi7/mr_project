@@ -73,6 +73,9 @@ mono_crash.*
 *.unitypackage.meta
 *.app
 
+# Unity Temp files
+Temp/
+
 # Crashlytics generated file
 crashlytics-build.properties
 
