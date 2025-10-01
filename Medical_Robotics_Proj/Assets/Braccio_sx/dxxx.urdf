@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<robot name="L0_respondable_PSM1">
+    <link name="robot_base">
+        <collision name="L0_respondable_PSM1">
+            <origin xyz="-1.000464 -0.333455 0.778120" rpy="1.570800 3.141598 1.223504" />
+            <geometry>
+                <mesh filename="package://dxxx_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L0_respondable_PSM1">
+            <origin xyz="-1.000464 -0.333455 0.778120" rpy="1.570800 3.141598 1.223504" />
+            <geometry>
+                <mesh filename="package://dxxx_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L0_respondable_PSM1">
+            <origin xyz="-1.000464 -0.333455 0.778120" rpy="1.570800 3.141598 1.223504" />
+            <geometry>
+                <mesh filename="package://dxxx_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L0_respondable_PSM1">
+            <origin xyz="-1.000464 -0.333455 0.778120" rpy="1.570800 3.141598 1.223504" />
+            <geometry>
+                <mesh filename="package://dxxx_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L0_respondable_PSM1">
+            <origin xyz="-1.000464 -0.333455 0.778120" rpy="1.570800 3.141598 1.223504" />
+            <geometry>
+                <mesh filename="package://dxxx_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="L0_visual_PSM1">
+            <origin xyz="-1.000424 -0.333172 0.777788" rpy="1.570798 3.141639 -1.919611" />
+            <geometry>
+                <mesh filename="package://dxxx_L0_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L0_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_PSM1">
+            <origin xyz="-1.000424 -0.333172 0.777788" rpy="1.570798 3.141639 -1.919611" />
+            <geometry>
+                <mesh filename="package://dxxx_L0_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L0_visual_PSM1_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="J1_PSM1" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" lower="-2.2581316232681" velocity="0.0099999997764826" upper="0.86186826229095" />
+        <parent link="robot_base" />
+        <child link="L1_respondable_PSM1" />
+        <origin xyz="-1.538437 -0.137502 0.818791" rpy="1.570449 3.141602 1.221982" />
+    </joint>
+    <link name="L1_respondable_PSM1">
+        <collision name="L1_respondable_PSM1">
+            <origin xyz="-0.037691 0.044938 0.528053" rpy="-0.000284 3.141313 2.269044" />
+            <geometry>
+                <mesh filename="package://dxxx_L1_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_PSM1">
+            <origin xyz="-0.037804 0.045054 0.528007" rpy="0.000000 3.142047 -0.872664" />
+            <geometry>
+                <mesh filename="package://dxxx_L1_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L1_visual_PSM1">
+            <origin xyz="-0.037804 0.045054 0.528007" rpy="0.000000 3.142047 -0.872664" />
+            <geometry>
+                <mesh filename="package://dxxx_L1_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L1_visual_PSM1_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="J2_PSM1" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" lower="-1.3077993988991" velocity="0.0099999997764826" upper="0.78420060873032" />
+        <parent link="L1_respondable_PSM1" />
+        <child link="L2_respondable_PSM1" />
+        <origin xyz="0.000000 -0.000000 0.000001" rpy="1.570797 3.141244 2.268928" />
+    </joint>
+    <link name="L2_respondable_PSM1">
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_respondable_PSM1_coll_19.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_PSM1">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L2_visual_PSM1">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dxxx_L2_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L2_visual_PSM1_material">
+                <color rgba="0.750000 0.520000 0.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="J3_PSM1" type="prismatic">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" lower="-0.15999999642372" velocity="0.0099999997764826" upper="0.34000000357628" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="L3_respondable_PSM1" />
+        <origin xyz="-0.000000 -0.000000 0.000000" rpy="0.261796 -1.570796 0.000000" />
+    </joint>
+    <link name="L3_respondable_PSM1">
+        <collision name="L3_respondable_PSM1">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dxxx_L3_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_visual_PSM1">
+            <origin xyz="-0.000000 -0.020747 -0.279600" rpy="0.000068 3.141617 1.570720" />
+            <geometry>
+                <mesh filename="package://dxxx_L3_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L3_visual_PSM1_material">
+                <color rgba="1.000000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Jp1_PSM1" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="Lp1_respondable_PSM1" />
+        <origin xyz="0.191649 0.009399 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp1_respondable_PSM1">
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp1_visual_PSM1">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838477" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp1_visual_PSM1">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838477" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp1_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Jp11_PSM1" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Lp1_respondable_PSM1" />
+        <child link="Lp11_respondable_PSM1" />
+        <origin xyz="-0.502281 -0.134589 -0.008500" rpy="-0.000000 3.141592 -2.617753" />
+    </joint>
+    <link name="Lp11_respondable_PSM1">
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp11_visual_PSM1">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574241 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp11_visual_PSM1">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574241 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp11_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Jp2_PSM1" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="Lp2_respondable_PSM1" />
+        <origin xyz="0.155910 -0.000178 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp2_respondable_PSM1">
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp2_visual_PSM1">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp2_visual_PSM1">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp2_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Jp21_PSM1" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Lp2_respondable_PSM1" />
+        <child link="Lp21_respondable_PSM1" />
+        <origin xyz="-0.415347 -0.111294 -0.017500" rpy="-0.000000 3.141592 -2.619581" />
+    </joint>
+    <link name="Lp21_respondable_PSM1">
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp21_visual_PSM1">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp21_visual_PSM1">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dxxx_Lp21_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>
