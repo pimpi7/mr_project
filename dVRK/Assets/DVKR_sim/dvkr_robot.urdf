@@ -1,0 +1,2363 @@
+<?xml version="1.0"?>
+<robot name="setupJointBase_respondable">
+    <link name="robot_base">
+        <inertial>
+            <origin xyz="-0.000000 0.000000 0.894995" rpy="-3.141593 3.142246 1.570796" />
+            <inertia izz="9999.9941885484" iyy="9999.9971687794" iyz="-2.0764439165922e-11" ixx="9999.9971687781" ixy="3.913079488019e-13" ixz="-1.9478178469559e-06" />
+            <mass value="100000.0" />
+        </inertial>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="setupJointBase_respondable">
+            <origin xyz="0.000003 0.000491 0.894889" rpy="-3.141593 3.142246 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_robot_base_coll_17.dae" />
+            </geometry>
+        </collision>
+        <visual name="setupJointVisible">
+            <origin xyz="-0.000000 0.000000 0.894995" rpy="-3.141593 3.141649 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_setupJointVisible_vis_1.dae" />
+            </geometry>
+            <material name="setupJointVisible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="L_Prismatic_joint">
+        <axis xyz="0 0 1" />
+        <limit effort="50.0" velocity="10.0" upper="1.1000000461936" lower="-0.10000000149012" />
+        <parent link="robot_base" />
+        <child link="L_link1_respondable" />
+        <origin xyz="0.000203 -0.165056 0.670527" rpy="-3.141593 3.141593 -3.141592" />
+    </joint>
+    <link name="L_link1_respondable">
+        <collision name="L_link1_respondable">
+            <origin xyz="-0.000038 -0.000843 -0.210016" rpy="0.000000 3.141259 3.141592" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link1_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L_link1Visible">
+            <origin xyz="-0.000002 0.000000 -0.210000" rpy="-0.000000 3.141585 -3.141593" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link1Visible_vis_1.dae" />
+            </geometry>
+            <material name="L_link1Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="L_Revolute_joint1">
+        <axis xyz="0 0 1" />
+        <parent link="L_link1_respondable" />
+        <child link="L_link2_respondable" />
+        <origin xyz="-0.000659 -0.020596 -0.037498" rpy="-3.141593 3.141593 3.141593" />
+    </joint>
+    <link name="L_link2_respondable">
+        <collision name="L_link2_respondable">
+            <origin xyz="-0.097045 -0.267805 0.131212" rpy="-1.588133 3.152352 -0.351464" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link2_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link2_respondable">
+            <origin xyz="-0.097045 -0.267805 0.131212" rpy="-1.588133 3.152352 -0.351464" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link2_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link2_respondable">
+            <origin xyz="-0.097045 -0.267805 0.131212" rpy="-1.588133 3.152352 -0.351464" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link2_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <visual name="L_link2Visible">
+            <origin xyz="-0.099796 -0.266911 0.131733" rpy="-1.588391 3.153767 -0.360903" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link2Visible_vis_1.dae" />
+            </geometry>
+            <material name="L_link2Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="L_Revolute_joint2">
+        <axis xyz="0 0 1" />
+        <parent link="L_link2_respondable" />
+        <child link="L_link3_respondable" />
+        <origin xyz="-0.197737 -0.544593 0.160000" rpy="3.141592 3.141592 2.792527" />
+    </joint>
+    <link name="L_link3_respondable">
+        <collision name="L_link3_respondable">
+            <origin xyz="-0.271783 0.044602 0.116308" rpy="-1.562396 3.148039 -1.734649" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link3_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link3_respondable">
+            <origin xyz="-0.271783 0.044602 0.116308" rpy="-1.562396 3.148039 -1.734649" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link3_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link3_respondable">
+            <origin xyz="-0.271783 0.044602 0.116308" rpy="-1.562396 3.148039 -1.734649" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link3_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link3_respondable">
+            <origin xyz="-0.271783 0.044602 0.116308" rpy="-1.562396 3.148039 -1.734649" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link3_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <visual name="L_link3Visible">
+            <origin xyz="-0.270580 0.050579 0.116501" rpy="-1.563777 3.153915 -1.756992" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link3Visible_vis_1.dae" />
+            </geometry>
+            <material name="L_link3Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="L_Revolute_joint3">
+        <axis xyz="0 0 1" />
+        <parent link="L_link3_respondable" />
+        <child link="L_link4_respondable" />
+        <origin xyz="-0.552397 0.097694 0.014029" rpy="-3.141593 3.141593 2.181662" />
+    </joint>
+    <link name="L_link4_respondable">
+        <collision name="L_link4_respondable">
+            <origin xyz="0.024263 0.036575 -0.056124" rpy="0.963673 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link4_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L_link4Visible">
+            <origin xyz="0.024992 0.037399 -0.056758" rpy="0.960180 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link4Visible_vis_1.dae" />
+            </geometry>
+            <material name="L_link4Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="L_Revolute_joint4">
+        <axis xyz="0 0 1" />
+        <parent link="L_link4_respondable" />
+        <child link="L_link5_respondable" />
+        <origin xyz="-0.035163 -0.048281 -0.065029" rpy="-1.570796 3.141593 2.530976" />
+    </joint>
+    <link name="L_link5_respondable">
+        <collision name="L_link5_respondable">
+            <origin xyz="-0.001520 -0.076460 0.203290" rpy="-3.097259 3.176081 -3.061420" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link5_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link5_respondable">
+            <origin xyz="-0.001520 -0.076460 0.203290" rpy="-3.097259 3.176081 -3.061420" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link5_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link5_respondable">
+            <origin xyz="-0.001520 -0.076460 0.203290" rpy="-3.097259 3.176081 -3.061420" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link5_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L_link5_respondable">
+            <origin xyz="-0.001520 -0.076460 0.203290" rpy="-3.097259 3.176081 -3.061420" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link5_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <visual name="L_link5Visible">
+            <origin xyz="-0.002421 -0.074910 0.204142" rpy="3.104387 3.143849 -0.042892" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L_link5Visible_vis_1.dae" />
+            </geometry>
+            <material name="L_link5Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="L_Revolute_joint5">
+        <axis xyz="0 0 1" />
+        <parent link="L_link5_respondable" />
+        <child link="solid_and_L0_respondable_PSM1" />
+        <origin xyz="0.000048 -0.082176 0.364997" rpy="1.570796 2.530976 3.141592" />
+    </joint>
+    <link name="solid_and_L0_respondable_PSM1">
+        <visual name="solid_and_L0_respondable_PSM1">
+            <origin xyz="0.000000 0.000000 0.000000" rpy="-1.134383 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_solid_and_L0_respondable_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="solid_and_L0_respondable_PSM1_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_PSM1">
+            <origin xyz="0.050094 0.071686 0.117935" rpy="1.570798 3.141640 -0.610615" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L0_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_PSM1">
+            <origin xyz="0.050094 0.071686 0.117935" rpy="1.570798 3.141640 -0.610615" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L0_visual_PSM1_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J1_PSM1">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="0.86186826229095" lower="-2.2581316232681" />
+        <parent link="solid_and_L0_respondable_PSM1" />
+        <child link="L1_respondable_PSM1" />
+        <origin xyz="-0.278156 -0.397352 0.158937" rpy="1.570450 3.141602 2.530978" />
+    </joint>
+    <link name="L1_respondable_PSM1">
+        <collision name="L1_respondable_PSM1">
+            <origin xyz="-0.037691 0.044938 0.528053" rpy="-0.000284 3.141313 2.269044" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_PSM1">
+            <origin xyz="-0.037804 0.045054 0.528007" rpy="0.000000 3.142047 -0.872664" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L1_visual_PSM1">
+            <origin xyz="-0.037804 0.045054 0.528007" rpy="0.000000 3.142047 -0.872664" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L1_visual_PSM1_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J2_PSM1">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="0.78420060873032" lower="-1.3077993988991" />
+        <parent link="L1_respondable_PSM1" />
+        <child link="L2_respondable_PSM1" />
+        <origin xyz="0.000000 -0.000000 0.000001" rpy="1.570797 3.141244 2.268928" />
+    </joint>
+    <link name="L2_respondable_PSM1">
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM1">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM1_coll_19.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_PSM1">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L2_visual_PSM1">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="L2_visual_PSM1_material">
+                <color rgba="0.750000 0.520000 0.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="J3_PSM1">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="0.34000000357628" lower="-0.15999999642372" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="L3_respondable_PSM1_and_L0_respondable_TOOL1" />
+        <origin xyz="-0.000000 -0.000000 0.000000" rpy="0.261796 -1.570796 0.000000" />
+    </joint>
+    <link name="L3_respondable_PSM1_and_L0_respondable_TOOL1">
+        <collision name="L3_respondable_PSM1_and_L0_respondable_TOOL1">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_PSM1_and_L0_respondable_TOOL1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L0_visual_TOOL1">
+            <origin xyz="0.000000 -0.000755 -0.278111" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_TOOL1_vis_1.dae" />
+            </geometry>
+            <material name="L0_visual_TOOL1_material">
+                <color rgba="1.000000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_TOOL1">
+            <origin xyz="0.000000 -0.000755 -0.278111" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_TOOL1_vis_2.dae" />
+            </geometry>
+            <material name="L0_visual_TOOL1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_TOOL1">
+            <origin xyz="0.000000 -0.000755 -0.278111" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_TOOL1_vis_3.dae" />
+            </geometry>
+            <material name="L0_visual_TOOL1_material">
+                <color rgba="0.843137 0.815686 0.752941 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J1_TOOL1">
+        <axis xyz="0 0 1" />
+        <parent link="L3_respondable_PSM1_and_L0_respondable_TOOL1" />
+        <child link="L1_respondable_TOOL1" />
+        <origin xyz="0.000000 -0.000005 -0.307721" rpy="-3.141589 3.141593 -1.530600" />
+    </joint>
+    <link name="L1_respondable_TOOL1">
+        <collision name="L1_respondable_TOOL1">
+            <origin xyz="0.000344 -0.000380 0.226981" rpy="-0.001056 3.140442 -1.675553" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_respondable_TOOL1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_TOOL1">
+            <origin xyz="0.000001 0.000000 0.227011" rpy="-3.141592 3.142246 0.248019" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_TOOL1_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_TOOL1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L1_visual_TOOL1">
+            <origin xyz="0.000001 0.000000 0.227011" rpy="-3.141592 3.142246 0.248019" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_TOOL1_vis_2.dae" />
+            </geometry>
+            <material name="L1_visual_TOOL1_material">
+                <color rgba="0.150000 0.150000 0.150000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J2_TOOL1">
+        <axis xyz="0 0 1" />
+        <parent link="L1_respondable_TOOL1" />
+        <child link="L2_respondable_TOOL1" />
+        <origin xyz="0.000000 -0.000000 0.452120" rpy="1.570784 1.611016 0.000004" />
+    </joint>
+    <link name="L2_respondable_TOOL1">
+        <collision name="L2_respondable_TOOL1">
+            <origin xyz="-0.004046 -0.000081 0.000015" rpy="-1.571911 3.238261 1.689583" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_TOOL1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_TOOL1">
+            <origin xyz="-0.003981 -0.000160 -0.000003" rpy="-0.000129 1.578261 -3.101501" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_TOOL1_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_TOOL1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L2_visual_TOOL1">
+            <origin xyz="-0.003981 -0.000160 -0.000003" rpy="-0.000129 1.578261 -3.101501" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_TOOL1_vis_2.dae" />
+            </geometry>
+            <material name="L2_visual_TOOL1_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J3_dx_TOOL1">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_TOOL1" />
+        <child link="L3_dx_respondable_TOOL1" />
+        <origin xyz="-0.008984 -0.000362 0.000000" rpy="-1.570846 4.672167 -3.101324" />
+    </joint>
+    <link name="L3_dx_respondable_TOOL1">
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL1">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL1_coll_16.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_dx_visual_TOOL1">
+            <origin xyz="-0.001018 0.003387 0.000472" rpy="-2.949472 4.546981 -1.473442" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_visual_TOOL1_vis_1.dae" />
+            </geometry>
+            <material name="L3_dx_visual_TOOL1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_dx_visual_TOOL1">
+            <origin xyz="-0.001018 0.003387 0.000472" rpy="-2.949472 4.546981 -1.473442" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_visual_TOOL1_vis_2.dae" />
+            </geometry>
+            <material name="L3_dx_visual_TOOL1_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J3_sx_TOOL1">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_TOOL1" />
+        <child link="L3_sx_respondable_TOOL1" />
+        <origin xyz="-0.008984 -0.000362 0.000000" rpy="1.570926 1.611018 -3.101243" />
+    </joint>
+    <link name="L3_sx_respondable_TOOL1">
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL1">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL1_coll_11.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_sx_visual_TOOL1">
+            <origin xyz="-0.001016 0.003387 0.000447" rpy="-2.949473 4.546981 -1.473441" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_visual_TOOL1_vis_1.dae" />
+            </geometry>
+            <material name="L3_sx_visual_TOOL1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_sx_visual_TOOL1">
+            <origin xyz="-0.001016 0.003387 0.000447" rpy="-2.949473 4.546981 -1.473441" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_visual_TOOL1_vis_2.dae" />
+            </geometry>
+            <material name="L3_sx_visual_TOOL1_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp1_PSM1">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="Lp1_respondable_PSM1" />
+        <origin xyz="0.191649 0.009399 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp1_respondable_PSM1">
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM1">
+            <origin xyz="-0.252689 -0.069232 0.000000" rpy="-1.570794 3.141715 -1.303735" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp1_visual_PSM1">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838477" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp1_visual_PSM1">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838477" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp11_PSM1">
+        <axis xyz="0 0 1" />
+        <parent link="Lp1_respondable_PSM1" />
+        <child link="Lp11_respondable_PSM1" />
+        <origin xyz="-0.502281 -0.134589 -0.008500" rpy="-0.000000 3.141592 -2.617753" />
+    </joint>
+    <link name="Lp11_respondable_PSM1">
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM1">
+            <origin xyz="-0.033172 0.090128 0.019803" rpy="2.624313 1.604829 -1.776091" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp11_visual_PSM1">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574241 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp11_visual_PSM1">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574241 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp2_PSM1">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM1" />
+        <child link="Lp2_respondable_PSM1" />
+        <origin xyz="0.155910 -0.000178 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp2_respondable_PSM1">
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM1">
+            <origin xyz="-0.254120 -0.060757 0.005903" rpy="-1.536910 3.777654 -1.360708" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp2_visual_PSM1">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp2_visual_PSM1">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp21_PSM1">
+        <axis xyz="0 0 1" />
+        <parent link="Lp2_respondable_PSM1" />
+        <child link="Lp21_respondable_PSM1" />
+        <origin xyz="-0.415347 -0.111294 -0.017500" rpy="-0.000000 3.141592 -2.619581" />
+    </joint>
+    <link name="Lp21_respondable_PSM1">
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp21_respondable_PSM1">
+            <origin xyz="-0.020178 0.075302 0.012530" rpy="-0.640938 1.571370 -1.949782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM1_coll_9.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp21_visual_PSM1">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_PSM1_vis_1.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM1_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp21_visual_PSM1">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_PSM1_vis_2.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM1_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="R_Prismatic_joint">
+        <axis xyz="0 0 1" />
+        <limit effort="50.0" velocity="10.0" upper="1.1000000461936" lower="-0.10000000149012" />
+        <parent link="robot_base" />
+        <child link="R_link1_respondable" />
+        <origin xyz="0.000201 0.164944 1.249463" rpy="-3.141593 3.141593 -3.141592" />
+    </joint>
+    <link name="R_link1_respondable">
+        <collision name="R_link1_respondable">
+            <origin xyz="0.000001 -0.000000 -0.787180" rpy="0.000002 3.141592 3.141586" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link1_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="R_link1Visible">
+            <origin xyz="0.000000 -0.000000 -0.787180" rpy="-3.141593 3.141597 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link1Visible_vis_1.dae" />
+            </geometry>
+            <material name="R_link1Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="R_Revolute_joint1">
+        <axis xyz="0 0 1" />
+        <parent link="R_link1_respondable" />
+        <child link="R_link_respondable" />
+        <origin xyz="-0.000206 0.019236 -0.614681" rpy="-3.141593 3.141593 3.141593" />
+    </joint>
+    <link name="R_link_respondable">
+        <collision name="R_link_respondable">
+            <origin xyz="-0.098506 0.268893 0.129472" rpy="-1.594168 3.152351 -2.790129" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link_respondable">
+            <origin xyz="-0.098506 0.268893 0.129472" rpy="-1.594168 3.152351 -2.790129" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link_respondable">
+            <origin xyz="-0.098506 0.268893 0.129472" rpy="-1.594168 3.152351 -2.790129" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <visual name="R_linkVisible2">
+            <origin xyz="-0.101387 0.267956 0.129981" rpy="-1.593910 3.153767 -2.780689" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_linkVisible2_vis_1.dae" />
+            </geometry>
+            <material name="R_linkVisible2_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="R_Revolute_joint2">
+        <axis xyz="0 0 1" />
+        <parent link="R_link_respondable" />
+        <child link="R_link3_respondable" />
+        <origin xyz="-0.198631 0.545741 0.160001" rpy="-3.141593 3.141593 1.919862" />
+    </joint>
+    <link name="R_link3_respondable">
+        <collision name="R_link3_respondable">
+            <origin xyz="0.044474 -0.271115 0.116437" rpy="-1.562110 3.148039 0.163849" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link3_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link3_respondable">
+            <origin xyz="0.044474 -0.271115 0.116437" rpy="-1.562110 3.148039 0.163849" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link3_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link3_respondable">
+            <origin xyz="0.044474 -0.271115 0.116437" rpy="-1.562110 3.148039 0.163849" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link3_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link3_respondable">
+            <origin xyz="0.044474 -0.271115 0.116437" rpy="-1.562110 3.148039 0.163849" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link3_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <visual name="R_link3Visible">
+            <origin xyz="0.051338 -0.270446 0.116379" rpy="-1.564254 3.153916 0.186188" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link3Visible_vis_1.dae" />
+            </geometry>
+            <material name="R_link3Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="R_Revolute_joint3">
+        <axis xyz="0 0 1" />
+        <parent link="R_link3_respondable" />
+        <child link="R_link4_respondable" />
+        <origin xyz="0.096723 -0.551992 0.014032" rpy="-3.141593 3.141593 -0.791819" />
+    </joint>
+    <link name="R_link4_respondable">
+        <collision name="R_link4_respondable">
+            <origin xyz="0.030058 -0.030553 -0.056128" rpy="-0.782721 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link4_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="R_link4Visible">
+            <origin xyz="0.031083 -0.031272 -0.056762" rpy="-0.779226 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link4Visible_vis_1.dae" />
+            </geometry>
+            <material name="R_link4Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="R_Revolute_joint4">
+        <axis xyz="0 0 1" />
+        <parent link="R_link4_respondable" />
+        <child link="R_link5_respondable" />
+        <origin xyz="-0.043510 0.042180 -0.063030" rpy="1.570802 3.141587 0.791819" />
+    </joint>
+    <link name="R_link5_respondable">
+        <collision name="R_link5_respondable">
+            <origin xyz="0.001134 0.076474 -0.203793" rpy="-3.107969 3.128426 3.078551" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link5_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link5_respondable">
+            <origin xyz="0.001134 0.076474 -0.203793" rpy="-3.107969 3.128426 3.078551" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link5_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link5_respondable">
+            <origin xyz="0.001134 0.076474 -0.203793" rpy="-3.107969 3.128426 3.078551" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link5_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="R_link5_respondable">
+            <origin xyz="0.001134 0.076474 -0.203793" rpy="-3.107969 3.128426 3.078551" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link5_respondable_coll_4.dae" />
+            </geometry>
+        </collision>
+        <visual name="R_link5visible">
+            <origin xyz="0.000745 0.082275 -0.202907" rpy="3.075437 3.108418 0.069224" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link5visible_vis_1.dae" />
+            </geometry>
+            <material name="R_link5visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="R_Revolute_joint5">
+        <axis xyz="0 0 1" />
+        <parent link="R_link5_respondable" />
+        <child link="R_link6_respondable_and_L0_respondable_PSM2" />
+        <origin xyz="-0.000138 0.085928 -0.364962" rpy="1.570804 3.933412 -0.000011" />
+    </joint>
+    <link name="R_link6_respondable_and_L0_respondable_PSM2">
+        <collision name="R_link6_respondable_and_L0_respondable_PSM2">
+            <origin xyz="-0.000000 0.000000 -0.000000" rpy="-0.595957 4.712385 -1.230299" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_R_link6_respondable_and_L0_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L0_visual_PSM2">
+            <origin xyz="0.062066 -0.061183 0.117931" rpy="1.570801 3.141655 -2.349700" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="L0_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L0_visual_PSM2">
+            <origin xyz="0.062066 -0.061183 0.117931" rpy="1.570801 3.141655 -2.349700" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L0_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="L0_visual_PSM2_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J1_PSM2">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="2.2581316232681" lower="-0.86186826229095" />
+        <parent link="R_link6_respondable_and_L0_respondable_PSM2" />
+        <child link="L1_respondable_PSM2" />
+        <origin xyz="-0.345365 0.340992 0.158935" rpy="1.570447 3.141587 0.791893" />
+    </joint>
+    <link name="L1_respondable_PSM2">
+        <collision name="L1_respondable_PSM2">
+            <origin xyz="0.037759 0.044938 0.528061" rpy="3.141469 3.140980 0.872858" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_PSM2">
+            <origin xyz="0.037804 0.045053 0.528006" rpy="-0.000000 3.142047 -2.268928" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L1_visual_PSM2">
+            <origin xyz="0.037804 0.045053 0.528006" rpy="-0.000000 3.142047 -2.268928" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="L1_visual_PSM2_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J2_PSM2">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="0.78420060873032" lower="-1.3077993988991" />
+        <parent link="L1_respondable_PSM2" />
+        <child link="L2_respondable_PSM2" />
+        <origin xyz="-0.000000 -0.000000 0.000000" rpy="1.570797 3.141244 0.872665" />
+    </joint>
+    <link name="L2_respondable_PSM2">
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="L2_respondable_PSM2">
+            <origin xyz="0.276382 0.036964 0.000027" rpy="1.570916 3.140666 1.771862" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_PSM2_coll_19.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_PSM2">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L2_visual_PSM2">
+            <origin xyz="0.275836 0.039570 0.000000" rpy="1.570797 3.141593 1.787453" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="L2_visual_PSM2_material">
+                <color rgba="0.000000 0.820000 0.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="J3_PSM2">
+        <axis xyz="0 0 1" />
+        <limit effort="0.0" velocity="0.0099999997764826" upper="0.34000000357628" lower="-0.15999999642372" />
+        <parent link="L2_respondable_PSM2" />
+        <child link="L3_respondable_PSM2_and_L0_respondable_TOOL2" />
+        <origin xyz="-0.000000 -0.000000 0.000000" rpy="0.261796 -1.570796 0.000000" />
+    </joint>
+    <link name="L3_respondable_PSM2_and_L0_respondable_TOOL2">
+        <collision name="L3_respondable_PSM2_and_L0_respondable_TOOL2">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_PSM2_and_L0_respondable_TOOL2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_visual_PSM2">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="L3_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_visual_PSM2">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="L3_visual_PSM2_material">
+                <color rgba="0.843137 0.815686 0.752941 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_visual_PSM2">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_PSM2_vis_3.dae" />
+            </geometry>
+            <material name="L3_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_visual_PSM2">
+            <origin xyz="0.000000 -0.020747 -0.279601" rpy="-0.000000 3.141592 -1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_PSM2_vis_4.dae" />
+            </geometry>
+            <material name="L3_visual_PSM2_material">
+                <color rgba="0.792157 0.819608 0.933333 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J1_TOOL2">
+        <axis xyz="0 0 1" />
+        <parent link="L3_respondable_PSM2_and_L0_respondable_TOOL2" />
+        <child link="L1_respondable_TOOL2" />
+        <origin xyz="0.000140 -0.000262 -0.309713" rpy="-3.141538 3.141600 -1.530525" />
+    </joint>
+    <link name="L1_respondable_TOOL2">
+        <collision name="L1_respondable_TOOL2">
+            <origin xyz="0.000456 -0.000130 0.226981" rpy="0.000949 3.142366 1.651712" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_respondable_TOOL2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_TOOL2">
+            <origin xyz="0.000001 0.000000 0.227012" rpy="-3.141592 3.142246 0.248019" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_TOOL2_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_TOOL2_material">
+                <color rgba="0.150000 0.150000 0.150000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J2_TOOL2">
+        <axis xyz="0 0 1" />
+        <parent link="L1_respondable_TOOL2" />
+        <child link="L2_respondable_TOOL2" />
+        <origin xyz="0.000000 -0.000000 0.452120" rpy="1.570785 1.611016 0.000005" />
+    </joint>
+    <link name="L2_respondable_TOOL2">
+        <collision name="L2_respondable_TOOL2">
+            <origin xyz="-0.003877 -0.000134 0.000012" rpy="-1.544870 3.208701 1.619033" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_TOOL2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_TOOL2">
+            <origin xyz="-0.003981 -0.000160 -0.000003" rpy="-0.000076 1.578261 -3.101448" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_TOOL2_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_TOOL2_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J3_dx_TOOL2">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_TOOL2" />
+        <child link="L3_dx_respondable_TOOL2" />
+        <origin xyz="-0.008984 -0.000362 0.000000" rpy="-1.570845 4.672167 -3.101324" />
+    </joint>
+    <link name="L3_dx_respondable_TOOL2">
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_dx_respondable_TOOL2">
+            <origin xyz="-0.000990 0.003419 0.000484" rpy="-2.993224 4.537216 -1.458330" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_respondable_TOOL2_coll_16.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_dx_visual_TOOL2">
+            <origin xyz="-0.001018 0.003387 0.000472" rpy="-2.949472 4.546981 -1.473441" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_dx_visual_TOOL2_vis_1.dae" />
+            </geometry>
+            <material name="L3_dx_visual_TOOL2_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="J3_sx_TOOL2">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_TOOL2" />
+        <child link="L3_sx_respondable_TOOL2" />
+        <origin xyz="-0.008984 -0.000362 0.000000" rpy="1.570927 1.611018 -3.101242" />
+    </joint>
+    <link name="L3_sx_respondable_TOOL2">
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_sx_respondable_TOOL2">
+            <origin xyz="-0.001015 0.003389 0.000468" rpy="-3.016818 4.553509 -1.410570" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_respondable_TOOL2_coll_11.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_sx_visual_TOOL2">
+            <origin xyz="-0.001017 0.003387 0.000447" rpy="-2.949473 4.546981 -1.473440" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_sx_visual_TOOL2_vis_1.dae" />
+            </geometry>
+            <material name="L3_sx_visual_TOOL2_material">
+                <color rgba="0.700000 0.700000 0.700000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp1_PSM2">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM2" />
+        <child link="Lp1_respondable_PSM2" />
+        <origin xyz="0.191649 0.009399 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp1_respondable_PSM2">
+        <collision name="Lp1_respondable_PSM2">
+            <origin xyz="-0.252689 -0.069233 0.000005" rpy="1.570820 3.141582 -1.303782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM2">
+            <origin xyz="-0.252689 -0.069233 0.000005" rpy="1.570820 3.141582 -1.303782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM2">
+            <origin xyz="-0.252689 -0.069233 0.000005" rpy="1.570820 3.141582 -1.303782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM2">
+            <origin xyz="-0.252689 -0.069233 0.000005" rpy="1.570820 3.141582 -1.303782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp1_respondable_PSM2">
+            <origin xyz="-0.252689 -0.069233 0.000005" rpy="1.570820 3.141582 -1.303782" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_respondable_PSM2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp1_visual_PSM2">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838478" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp1_visual_PSM2">
+            <origin xyz="-0.252688 -0.069233 0.000000" rpy="-1.570797 3.141593 1.838478" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp1_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="Lp1_visual_PSM2_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp11_PSM2">
+        <axis xyz="0 0 1" />
+        <parent link="Lp1_respondable_PSM2" />
+        <child link="Lp11_respondable_PSM2" />
+        <origin xyz="-0.502281 -0.134589 -0.008500" rpy="-0.000000 3.141592 -2.617753" />
+    </joint>
+    <link name="Lp11_respondable_PSM2">
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp11_respondable_PSM2">
+            <origin xyz="-0.029614 0.091257 0.017001" rpy="-1.570789 3.141574 -2.877755" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_respondable_PSM2_coll_9.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp11_visual_PSM2">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574242 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp11_visual_PSM2">
+            <origin xyz="-0.032446 0.090374 0.017403" rpy="-1.574242 3.159129 0.301804" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp11_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="Lp11_visual_PSM2_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp2_PSM2">
+        <axis xyz="0 0 1" />
+        <parent link="L2_respondable_PSM2" />
+        <child link="Lp2_respondable_PSM2" />
+        <origin xyz="0.155910 -0.000178 0.000000" rpy="0.000000 3.141592 -1.311806" />
+    </joint>
+    <link name="Lp2_respondable_PSM2">
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="Lp2_respondable_PSM2">
+            <origin xyz="-0.258269 -0.049013 -0.000071" rpy="-1.571006 3.140335 -1.303504" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_respondable_PSM2_coll_6.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp2_visual_PSM2">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp2_visual_PSM2">
+            <origin xyz="-0.258236 -0.048980 0.000009" rpy="1.570849 3.141592 -1.303354" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp2_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="Lp2_visual_PSM2_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp21_PSM2">
+        <axis xyz="0 0 1" />
+        <parent link="Lp2_respondable_PSM2" />
+        <child link="Lp21_respondable_PSM2" />
+        <origin xyz="-0.415348 -0.111294 -0.017500" rpy="-0.000000 3.141592 -2.619581" />
+    </joint>
+    <link name="Lp21_respondable_PSM2">
+        <collision name="Lp21_respondable_PSM2">
+            <origin xyz="-0.020178 0.075318 0.012504" rpy="1.570776 3.141156 0.261150" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_PSM2_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp21_visual_PSM2">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_PSM2_vis_1.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM2_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp21_visual_PSM2">
+            <origin xyz="-0.020177 0.075301 0.012500" rpy="1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_PSM2_vis_2.dae" />
+            </geometry>
+            <material name="Lp21_visual_PSM2_material">
+                <color rgba="0.200000 0.200000 0.200000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="C_Prismatic_joint">
+        <axis xyz="0 0 1" />
+        <limit effort="50.0" velocity="10.0" upper="0.50000005960464" lower="-0.69999998807907" />
+        <parent link="robot_base" />
+        <child link="C_link1_respondable" />
+        <origin xyz="-0.165002 0.000146 1.225600" rpy="-3.141593 3.141593 -3.141592" />
+    </joint>
+    <link name="C_link1_respondable">
+        <collision name="C_link1_respondable">
+            <origin xyz="-0.000836 -0.000020 -0.160669" rpy="-0.000001 3.141577 1.570795" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link1_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="C_link1Visible">
+            <origin xyz="0.000002 -0.000003 -0.160669" rpy="0.000000 3.141627 1.570797" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link1Visible_vis_1.dae" />
+            </geometry>
+            <material name="C_link1Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="C_Revolute_joint1">
+        <axis xyz="0 0 1" />
+        <parent link="C_link1_respondable" />
+        <child link="C_link2_respondable" />
+        <origin xyz="-0.019757 0.000522 0.011832" rpy="3.141593 3.141593 3.141592" />
+    </joint>
+    <link name="C_link2_respondable">
+        <collision name="C_link2_respondable">
+            <origin xyz="-0.204620 -0.201501 0.129923" rpy="-1.594433 3.153915 -0.797055" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link2_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="C_link2_respondable">
+            <origin xyz="-0.204620 -0.201501 0.129923" rpy="-1.594433 3.153915 -0.797055" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link2_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="C_link2_respondable">
+            <origin xyz="-0.204620 -0.201501 0.129923" rpy="-1.594433 3.153915 -0.797055" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link2_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <visual name="C_link2Visible">
+            <origin xyz="-0.201862 -0.202865 0.127332" rpy="-1.539128 3.142247 2.356194" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link2Visible_vis_1.dae" />
+            </geometry>
+            <material name="C_link2Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="C_Revolute_joint2">
+        <axis xyz="0 0 1" />
+        <parent link="C_link2_respondable" />
+        <child link="C_link3_respondable" />
+        <origin xyz="-0.409777 -0.410806 0.160001" rpy="-3.141593 3.141593 -3.141593" />
+    </joint>
+    <link name="C_link3_respondable">
+        <collision name="C_link3_respondable">
+            <origin xyz="-0.197608 0.192545 0.117706" rpy="-1.559728 3.153916 -2.344537" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link3_respondable_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="C_link3_respondable">
+            <origin xyz="-0.197608 0.192545 0.117706" rpy="-1.559728 3.153916 -2.344537" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link3_respondable_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="C_link3_respondable">
+            <origin xyz="-0.197608 0.192545 0.117706" rpy="-1.559728 3.153916 -2.344537" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link3_respondable_coll_3.dae" />
+            </geometry>
+        </collision>
+        <visual name="C_link3Visible">
+            <origin xyz="-0.194728 0.194762 0.116610" rpy="-1.577331 3.142246 0.785399" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link3Visible_vis_1.dae" />
+            </geometry>
+            <material name="C_link3Visible_material">
+                <color rgba="0.749020 0.749020 0.749020 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="C_Revolute_joint3">
+        <axis xyz="0 0 1" />
+        <parent link="C_link3_respondable" />
+        <child link="C_link4_respondable_and_L0_respondable_ECM" />
+        <origin xyz="-0.396696 0.395268 0.014027" rpy="3.141593 3.141593 3.141593" />
+    </joint>
+    <link name="C_link4_respondable_and_L0_respondable_ECM">
+        <collision name="C_link4_respondable_and_L0_respondable_ECM">
+            <origin xyz="0.068671 0.000930 -0.024531" rpy="-0.000000 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link4_respondable_and_L0_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="C_link4_visible_and_L0_visual_ECM">
+            <origin xyz="0.057361 0.001013 -0.139588" rpy="1.047197 3.141573 -1.570770" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_C_link4_visible_and_L0_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="C_link4_visible_and_L0_visual_ECM_material">
+                <color rgba="1.000000 1.000000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J1_ECM">
+        <axis xyz="0 0 1" />
+        <limit effort="50.0" velocity="2.0" upper="0.78539824485779" lower="-1.3089969158173" />
+        <parent link="C_link4_respondable_and_L0_respondable_ECM" />
+        <child link="L1_respondable_ECM" />
+        <origin xyz="-0.602803 0.022458 -0.494422" rpy="-3.133914 4.177577 -0.042840" />
+    </joint>
+    <link name="L1_respondable_ECM">
+        <collision name="L1_respondable_ECM">
+            <origin xyz="-0.020645 0.000052 0.457979" rpy="0.065848 3.142247 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L1_visual_ECM">
+            <origin xyz="-0.020645 0.000052 0.457979" rpy="-3.075744 3.142248 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="L1_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L1_visual_ECM">
+            <origin xyz="-0.020645 0.000052 0.457979" rpy="-3.075744 3.142248 1.570796" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L1_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="L1_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp21_ECM">
+        <axis xyz="0 0 1" />
+        <parent link="L1_respondable_ECM" />
+        <child link="Lp21_respondable_ECM" />
+        <origin xyz="-0.000001 0.000000 0.377999" rpy="-1.570796 -1.570796 0.000000" />
+    </joint>
+    <link name="Lp21_respondable_ECM">
+        <collision name="Lp21_respondable_ECM">
+            <origin xyz="0.077693 0.114414 -0.000000" rpy="0.976240 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp21_visual_ECM">
+            <origin xyz="0.077693 0.114414 -0.000000" rpy="-2.165352 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="Lp21_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp21_visual_ECM">
+            <origin xyz="0.077693 0.114414 -0.000000" rpy="-2.165352 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp21_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="Lp21_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="Jp22_ECM">
+        <axis xyz="0 0 1" />
+        <parent link="Lp21_respondable_ECM" />
+        <child link="Lp22_respondable_ECM" />
+        <origin xyz="0.125025 0.250761 -0.000000" rpy="3.141593 3.141593 2.879793" />
+    </joint>
+    <link name="Lp22_respondable_ECM">
+        <collision name="Lp22_respondable_ECM">
+            <origin xyz="-0.150211 -0.032484 0.000000" rpy="2.879793 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp22_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Lp22_visual_ECM">
+            <origin xyz="-0.150211 -0.032484 -0.000000" rpy="0.261799 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp22_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="Lp22_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="Lp22_visual_ECM">
+            <origin xyz="-0.150211 -0.032484 -0.000000" rpy="0.261799 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_Lp22_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="Lp22_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="continuous" name="JP23_ECM">
+        <axis xyz="0 0 1" />
+        <parent link="Lp22_respondable_ECM" />
+        <child link="L2_respondable_ECM" />
+        <origin xyz="-0.328416 -0.087999 0.000000" rpy="-3.141593 3.141593 -2.879793" />
+    </joint>
+    <link name="L2_respondable_ECM">
+        <collision name="L2_respondable_ECM">
+            <origin xyz="-0.007111 0.034799 -0.000124" rpy="1.571421 3.141650 2.880314" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="L2_visual_ECM">
+            <origin xyz="-0.007431 0.034085 0.000000" rpy="-1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="L2_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L2_visual_ECM">
+            <origin xyz="-0.007431 0.034085 0.000000" rpy="-1.832596 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L2_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="L2_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="prismatic" name="J3_ECM">
+        <axis xyz="0 0 1" />
+        <limit effort="100.0" velocity="10.0" upper="0.23499999940395" lower="0.0" />
+        <parent link="L1_respondable_ECM" />
+        <child link="L3_respondable_ECM" />
+        <origin xyz="0.369176 -0.000000 0.098920" rpy="0.000001 4.450590 -0.000001" />
+    </joint>
+    <link name="L3_respondable_ECM">
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="L3_respondable_ECM">
+            <origin xyz="0.033263 -0.004306 -0.023945" rpy="0.109780 3.141583 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_respondable_ECM_coll_10.dae" />
+            </geometry>
+        </collision>
+        <visual name="L3_visual_ECM">
+            <origin xyz="0.038294 -0.001272 -0.029971" rpy="-3.141592 3.106685 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="L3_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L3_visual_ECM">
+            <origin xyz="0.038294 -0.001272 -0.029971" rpy="-3.141592 3.106685 -0.000000" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L3_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="L3_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint type="revolute" name="J4_ECM">
+        <axis xyz="0 0 1" />
+        <limit effort="100.0" velocity="10.0" upper="1.5707963705063" lower="-1.5707963705063" />
+        <parent link="L3_respondable_ECM" />
+        <child link="L4_respondable_ECM" />
+        <origin xyz="-0.000000 0.000000 0.000000" rpy="-3.141593 3.141593 -3.141592" />
+    </joint>
+    <link name="L4_respondable_ECM">
+        <collision name="L4_respondable_ECM">
+            <origin xyz="-0.002369 -0.006972 0.115515" rpy="-3.101407 3.180753 -2.697646" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L4_respondable_ECM_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="L4_respondable_ECM">
+            <origin xyz="-0.002369 -0.006972 0.115515" rpy="-3.101407 3.180753 -2.697646" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L4_respondable_ECM_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="L4_respondable_ECM">
+            <origin xyz="-0.002369 -0.006972 0.115515" rpy="-3.101407 3.180753 -2.697646" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L4_respondable_ECM_coll_3.dae" />
+            </geometry>
+        </collision>
+        <visual name="L4_visual_ECM">
+            <origin xyz="-0.000014 0.000026 0.116498" rpy="3.141383 3.141590 -2.705260" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L4_visual_ECM_vis_1.dae" />
+            </geometry>
+            <material name="L4_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+        <visual name="L4_visual_ECM">
+            <origin xyz="-0.000014 0.000026 0.116498" rpy="3.141383 3.141590 -2.705260" />
+            <geometry>
+                <mesh filename="package://dvkr_robot_L4_visual_ECM_vis_2.dae" />
+            </geometry>
+            <material name="L4_visual_ECM_material">
+                <color rgba="0.400000 0.400000 0.400000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>
