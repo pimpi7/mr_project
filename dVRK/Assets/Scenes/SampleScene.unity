@@ -336,7 +336,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1289778890}
-  - {fileID: 193527963}
   m_Father: {fileID: 170467975}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4142629
@@ -733,52 +732,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1983460536}
   m_SourcePrefab: {fileID: 100100000, guid: 85969603649cc9d418fd7e063e7fd2bd, type: 3}
---- !u!1 &16894235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 16894236}
-  - component: {fileID: 16894237}
-  m_Layer: 0
-  m_Name: link
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &16894236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16894235}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 193753252}
-  m_Father: {fileID: 476376938}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &16894237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16894235}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
-  IsBaseLink: 0
 --- !u!1 &19964534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fb1edfb389988e04db79f54cd679b341, type: 3}
@@ -1018,7 +971,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 315245126}
-  - {fileID: 1614141445}
   m_Father: {fileID: 1216248308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &29104197
@@ -1033,11 +985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!4 &29165721 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-  m_PrefabInstance: {fileID: 162468261}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &29918719
 GameObject:
   m_ObjectHideFlags: 8
@@ -1129,79 +1076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1001 &32198458
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 255931888}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 76b8ab66758495349a427166b6165f7e, type: 2}
-    - target: {fileID: 919132149155446097, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L3_visual_ECM_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
 --- !u!1 &35848914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,79 +1353,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 165037630}
   m_SourcePrefab: {fileID: 100100000, guid: 2ce2e5491ad88f54d87f4de0b3b0b2c9, type: 3}
---- !u!1001 &42207374
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2017519639}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999991
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.4999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 680a536f3335f114eb67aed78ed34e78, type: 2}
-    - target: {fileID: 919132149155446097, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L0_visual_PSM2_vis_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
 --- !u!1 &42559136
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,79 +1495,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -589013772469121986, guid: c89fd01f434aa974db0b343b349bbb8b, type: 3}
---- !u!1001 &47078405
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 97734901}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999997
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 24edac63fea964042aac33bf77b2c092, type: 2}
-    - target: {fileID: 919132149155446097, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L0_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c573b26b3be329e49855de00bb91177f, type: 3}
 --- !u!1001 &48390295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2212,9 +1940,9 @@ MonoBehaviour:
   selectedJoint: 
   selectedIndex: 0
   control: 0
-  stiffness: 0
-  damping: 0
-  forceLimit: 0
+  stiffness: 1500
+  damping: 50
+  forceLimit: 1000
   speed: 5
   torque: 100
   acceleration: 5
@@ -2328,7 +2056,6 @@ Transform:
   m_LocalScale: {x: 1.0000001, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 832290510}
   - {fileID: 685280844}
   m_Father: {fileID: 744038094}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2565,11 +2292,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &79978143 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-  m_PrefabInstance: {fileID: 312887556}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &82709305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,52 +2522,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1969493493}
   m_SourcePrefab: {fileID: 100100000, guid: 3aa167f19f68dc0439ca4ec98b99dc91, type: 3}
---- !u!1 &97734900
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 97734901}
-  - component: {fileID: 97734902}
-  m_Layer: 0
-  m_Name: L0_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &97734901
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97734900}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.67441076, y: 0.6744019, z: -0.21253066, w: -0.21256284}
-  m_LocalPosition: {x: -0.07168604, y: 0.11793501, z: 0.050093938}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999976}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1177380774}
-  m_Father: {fileID: 1832237755}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &97734902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97734900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &99052454
 GameObject:
   m_ObjectHideFlags: 8
@@ -3364,11 +3040,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!4 &117023924 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 617f218ce48d5a24d8199469ce17d36e, type: 3}
-  m_PrefabInstance: {fileID: 42207374}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &121972281
 GameObject:
   m_ObjectHideFlags: 8
@@ -4008,11 +3679,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6196310938917280521, guid: c0bd0cbb2fef8b7478f581eb9f21c33d, type: 3}
---- !u!4 &147370836 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-  m_PrefabInstance: {fileID: 1715695115}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &148689610 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0a92200758b8976469a77f4a51147f8f, type: 3}
@@ -4369,79 +4035,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1908537179}
   m_SourcePrefab: {fileID: 100100000, guid: 21ed513cf94b7334791f906e66d3aa0a, type: 3}
---- !u!1001 &162468261
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1856374513}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999996
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000012729745
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000017282534
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000001058615
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 2d3e1bb1d935cd34c8bb782d584223f2, type: 2}
-    - target: {fileID: 919132149155446097, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L3_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7d24ec4ccbbac714ea2b75ed2ab4e7f6, type: 3}
 --- !u!1 &163424609
 GameObject:
   m_ObjectHideFlags: 0
@@ -5295,79 +4888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
---- !u!1001 &182660191
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1979977346}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999887
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000007
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.0000001191728
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000106090944
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.000000104680055
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999985
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000024
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 4048077d2ae7f91438edcfc5bf0b4281, type: 2}
-    - target: {fileID: 919132149155446097, guid: 283015c6273f56742af2220be3117422, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L2_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 283015c6273f56742af2220be3117422, type: 3}
 --- !u!1 &182703071
 GameObject:
   m_ObjectHideFlags: 0
@@ -5785,97 +5305,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &193527962
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 193527963}
-  - component: {fileID: 193527964}
-  m_Layer: 0
-  m_Name: L1_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &193527963
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193527962}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.90630794, y: -0.00009599235, z: -0.42261797, w: -0.00020585644}
-  m_LocalPosition: {x: -0.045054074, y: 0.52800727, z: -0.03780385}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1573009965}
-  m_Father: {fileID: 4142628}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &193527964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193527962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
---- !u!1 &193753251
-GameObject:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 193753252}
-  - component: {fileID: 193753253}
-  m_Layer: 0
-  m_Name: Collisions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &193753252
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193753251}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 347608941}
-  m_Father: {fileID: 16894236}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &193753253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 193753251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
 --- !u!1 &194194368
 GameObject:
   m_ObjectHideFlags: 0
@@ -6715,52 +6144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
---- !u!1 &238195051
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 238195052}
-  - component: {fileID: 238195053}
-  m_Layer: 0
-  m_Name: L2_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &238195052
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238195051}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.43045917, y: 0.5609855, z: 0.5609857, w: 0.43045935}
-  m_LocalPosition: {x: -0.03408485, y: -0.000000050049785, z: -0.007431053}
-  m_LocalScale: {x: 0.9999986, y: 1.0000012, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 983218021}
-  m_Father: {fileID: 1738229570}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &238195053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238195051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &244516815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7c642da24f27e674fbee395ce81334e1, type: 3}
@@ -6860,52 +6243,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fad5838ec2422164db3f2a8209ae9322, type: 3}
   m_PrefabInstance: {fileID: 672676114}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &250456493
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 250456494}
-  - component: {fileID: 250456495}
-  m_Layer: 0
-  m_Name: L3_dx_visual_TOOL1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &250456494
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250456493}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.37799606, y: -0.6042527, z: -0.5256484, w: 0.46442586}
-  m_LocalPosition: {x: -0.0033871864, y: 0.00047190065, z: -0.001018036}
-  m_LocalScale: {x: 1.0000001, y: 0.99999964, z: 0.99999976}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 810014139}
-  m_Father: {fileID: 360335222}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &250456495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 250456493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1001 &250986443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6972,52 +6309,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1573321038}
   m_SourcePrefab: {fileID: 100100000, guid: cfe45084e9e142244985747daaf1ad1a, type: 3}
---- !u!1 &255931887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 255931888}
-  - component: {fileID: 255931889}
-  m_Layer: 0
-  m_Name: L3_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &255931888
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255931887}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00000031386867, y: -0.9998477, z: 0.01745298, w: 0.000000005478778}
-  m_LocalPosition: {x: 0.0012720345, y: -0.029970948, z: 0.03829398}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 885748581}
-  m_Father: {fileID: 589318430}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &255931889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255931887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &262397481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37505fb76b808e045998ff1dc3f09d5d, type: 3}
@@ -7319,79 +6610,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
   geometryType: 3
---- !u!1001 &273831149
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1854593614}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999875
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000011
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.000000059604766
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.0000000046565796
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000005960465
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999985
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: c6442735336785e4a97920c04ba2910f, type: 2}
-    - target: {fileID: 919132149155446097, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp22_visual_ECM_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
 --- !u!1 &274559992
 GameObject:
   m_ObjectHideFlags: 0
@@ -8206,79 +7424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!1001 &312887556
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 656311773}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999964
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999997
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 3cbb54ad2eb9ef14b82ae198f1de0a93, type: 2}
-    - target: {fileID: 919132149155446097, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L1_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 324b72cdbf5d0654ca1a94180ea6d30b, type: 3}
 --- !u!1 &313834445
 GameObject:
   m_ObjectHideFlags: 0
@@ -8487,7 +7632,6 @@ Transform:
   m_LocalScale: {x: 0.9999999, y: 1.0000004, z: 0.9999996}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1979977346}
   - {fileID: 805658945}
   m_Father: {fileID: 1349415657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8549,11 +7693,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &321131657 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 92f06deac9e31374b81c8089de2b03c0, type: 3}
-  m_PrefabInstance: {fileID: 273831149}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &321149514 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 154df50caa23277449f5d5bb4984db37, type: 3}
@@ -9151,51 +8290,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &347608940
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 347608941}
-  - component: {fileID: 347608942}
-  m_Layer: 0
-  m_Name: unnamed
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &347608941
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347608940}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 193753252}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &347608942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 347608940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
-  geometryType: 3
 --- !u!1 &347726192
 GameObject:
   m_ObjectHideFlags: 0
@@ -9279,52 +8373,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 749efdef6fe74e74386a03ed1f9996d3, type: 3}
   m_PrefabInstance: {fileID: 1610967412}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &357701228
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 357701229}
-  - component: {fileID: 357701230}
-  m_Layer: 0
-  m_Name: L2_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &357701229
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357701228}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.44301057, y: 0.443011, z: 0.5511274, w: 0.5511276}
-  m_LocalPosition: {x: -0.039570004, y: -0.00000059061244, z: 0.27583605}
-  m_LocalScale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2032508105}
-  m_Father: {fileID: 1083033106}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &357701230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357701228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &360015585 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: dc81648907ca8a446938d867736e42e8, type: 3}
@@ -9388,7 +8436,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 454994858}
-  - {fileID: 250456494}
   m_Father: {fileID: 1580680563}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &360335223
@@ -9835,7 +8882,6 @@ Transform:
   m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 656311773}
   - {fileID: 948066455}
   m_Father: {fileID: 1787424753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10031,79 +9077,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
---- !u!1001 &389974949
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 238195052}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999744
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000025
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.00000010178756
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000029802226
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.000000034433445
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 99fc05da5e8d03548811827bb3082fde, type: 2}
-    - target: {fileID: 919132149155446097, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L2_visual_ECM_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
 --- !u!1 &391402193
 GameObject:
   m_ObjectHideFlags: 8
@@ -10134,10 +9107,8 @@ Transform:
   m_LocalScale: {x: 0.99999976, y: 1.0000002, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1856374513}
   - {fileID: 1709545779}
   - {fileID: 1633800870}
-  - {fileID: 1430770413}
   m_Father: {fileID: 1553550131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &391402195
@@ -10152,52 +9123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!1 &391481269
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 391481270}
-  - component: {fileID: 391481271}
-  m_Layer: 0
-  m_Name: Lp2_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &391481270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391481269}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.5621829, y: 0.5622127, z: -0.4288637, w: -0.428886}
-  m_LocalPosition: {x: 0.048979566, y: 0.000009484116, z: -0.25823635}
-  m_LocalScale: {x: 0.99999976, y: 1, z: 1.0000006}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 147370836}
-  m_Father: {fileID: 930746365}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &391481271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 391481269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &392016786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b9c292abaa5cb0e49a3142582986eb04, type: 3}
@@ -10790,7 +9715,6 @@ Transform:
   m_LocalScale: {x: 0.99999964, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 971433957}
   - {fileID: 884285192}
   m_Father: {fileID: 1087122456}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11559,11 +10483,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2669420826622107853, guid: b27cc07bc064fc44eb7249dc95216daf, type: 3}
---- !u!4 &454408584 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-  m_PrefabInstance: {fileID: 1560216104}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &454994857
 GameObject:
   m_ObjectHideFlags: 0
@@ -12229,79 +11148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &476376935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 476376938}
-  - component: {fileID: 476376937}
-  - component: {fileID: 476376936}
-  m_Layer: 0
-  m_Name: setupJointBase_respondable
-  m_TagString: robot
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &476376936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476376935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d607ea46a579d44c4b19a6322ce4b9b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.Control.Controller
-  selectedJoint: 
-  selectedIndex: 0
-  control: 0
-  stiffness: 0
-  damping: 0
-  forceLimit: 0
-  speed: 5
-  torque: 100
-  acceleration: 5
-  highLightColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &476376937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476376935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf4c79288754864b8d522b69f4b52a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfRobot
-  FilePath: 
-  chosenAxis: 0
-  currentOrientation: 0
-  collisionExceptions: []
---- !u!4 &476376938
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476376935}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 975503756}
-  - {fileID: 16894236}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &480190433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12376,11 +11222,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2074089546}
   m_SourcePrefab: {fileID: 100100000, guid: 714e5b9809c6d4d488ab23a740e9929e, type: 3}
---- !u!4 &482527702 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 283015c6273f56742af2220be3117422, type: 3}
-  m_PrefabInstance: {fileID: 182660191}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &485511969
 GameObject:
   m_ObjectHideFlags: 0
@@ -12830,11 +11671,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &511738640 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-  m_PrefabInstance: {fileID: 1141335582}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &512673376
 GameObject:
   m_ObjectHideFlags: 8
@@ -13563,11 +12399,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!4 &535094843 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-  m_PrefabInstance: {fileID: 1844902097}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &535355326
 GameObject:
   m_ObjectHideFlags: 0
@@ -14369,7 +13200,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1782004004}
-  - {fileID: 2017519639}
   m_Father: {fileID: 1075233324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &555795692
@@ -14912,11 +13742,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &575657105 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-  m_PrefabInstance: {fileID: 1498249355}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &581182249
 GameObject:
   m_ObjectHideFlags: 0
@@ -15111,79 +13936,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1174479861}
   m_SourcePrefab: {fileID: 100100000, guid: 6e79ca0091dbebf4f885646759b0a500, type: 3}
---- !u!1001 &584832460
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 250456494}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000020635771
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000000023126455
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000005134861
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 2acf5e3617634634c9e75f73591191b3, type: 2}
-    - target: {fileID: 919132149155446097, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L3_dx_visual_TOOL1_vis_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
 --- !u!1 &585195846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0421564771df3c341913a6734fd071c6, type: 3}
@@ -15412,7 +14164,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 255931888}
   - {fileID: 832625059}
   m_Father: {fileID: 822669840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15717,79 +14468,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 872141920}
   m_SourcePrefab: {fileID: 100100000, guid: c9b81b45a2219734e891d7f9c6cdeadc, type: 3}
---- !u!1001 &597802338
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 971433957}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999964
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000007
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000030697913
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000000059604606
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.000000111360094
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f8d2214fafe31f041b7b84099c78a34a, type: 2}
-    - target: {fileID: 919132149155446097, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp11_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
 --- !u!1001 &599850830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16028,75 +14706,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!1001 &611643968
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1788636538}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: cfd1bbb0a64aba44ea73c808b445782f, type: 2}
-    - target: {fileID: 919132149155446097, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp1_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
 --- !u!1001 &611900678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16674,7 +15283,6 @@ Transform:
   m_LocalScale: {x: 0.9999999, y: 0.99999946, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2051754341}
   - {fileID: 1802037732}
   m_Father: {fileID: 808811846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16904,52 +15512,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1746413036}
   m_SourcePrefab: {fileID: 100100000, guid: 091ad9b5acff23b40aac4f55fe9ffd26, type: 3}
---- !u!1 &656311772
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 656311773}
-  - component: {fileID: 656311774}
-  m_Layer: 0
-  m_Name: L1_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &656311773
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656311772}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.42261827, y: -0.00020588342, z: -0.9063078, w: -0.00009597983}
-  m_LocalPosition: {x: -0.04505309, y: 0.528006, z: 0.03780404}
-  m_LocalScale: {x: 0.9999999, y: 1, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 79978143}
-  m_Father: {fileID: 380024435}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &656311774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656311772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &661740930
 GameObject:
   m_ObjectHideFlags: 0
@@ -20835,7 +19397,6 @@ Transform:
   m_LocalScale: {x: 0.99999964, y: 1.0000004, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1854593614}
   - {fileID: 875535849}
   m_Father: {fileID: 1261035562}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20897,11 +19458,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &786080686 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-  m_PrefabInstance: {fileID: 1997415118}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &789203002
 GameObject:
   m_ObjectHideFlags: 0
@@ -20978,7 +19534,6 @@ Transform:
   m_LocalScale: {x: 1.0000002, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1824453949}
   - {fileID: 1676675601}
   m_Father: {fileID: 212573270}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20994,11 +19549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!4 &800123388 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 33b4a48af90c9d44891145c943e65627, type: 3}
-  m_PrefabInstance: {fileID: 597802338}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &803076668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21379,11 +19929,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1963754945}
   m_SourcePrefab: {fileID: 100100000, guid: 41e6987a545a724469c413cc205bd4db, type: 3}
---- !u!4 &810014139 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 293dd17de10bf3d45bcb34a58fceb6ec, type: 3}
-  m_PrefabInstance: {fileID: 584832460}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &812532066
 GameObject:
   m_ObjectHideFlags: 0
@@ -21430,11 +19975,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &813851054 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-  m_PrefabInstance: {fileID: 1246656508}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &815982272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21508,11 +20048,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88cf4cd85ec312c49b8e0b20cba736b5, type: 3}
---- !u!4 &819084274 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-  m_PrefabInstance: {fileID: 1887208657}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821889278
 GameObject:
   m_ObjectHideFlags: 8
@@ -21690,11 +20225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!4 &825378453 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-  m_PrefabInstance: {fileID: 1730197669}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &827100462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21809,52 +20339,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827665875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
---- !u!1 &832290509
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832290510}
-  - component: {fileID: 832290511}
-  m_Layer: 0
-  m_Name: L2_visual_TOOL1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &832290510
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832290509}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0142717995, y: 0.7043204, z: -0.7095974, w: 0.014166308}
-  m_LocalPosition: {x: 0.00015997422, y: -0.000003486394, z: -0.00398061}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 813851054}
-  m_Father: {fileID: 65140673}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &832290511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832290509}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
@@ -23164,7 +21648,6 @@ Transform:
   m_LocalScale: {x: 1.0000001, y: 0.99999976, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2114627885}
   - {fileID: 535355327}
   m_Father: {fileID: 871104015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23226,11 +21709,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
   geometryType: 3
---- !u!4 &885748581 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6a9c383a39d53ae47b97beb225f2e714, type: 3}
-  m_PrefabInstance: {fileID: 32198458}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &892124875
 GameObject:
   m_ObjectHideFlags: 8
@@ -24119,7 +22597,6 @@ Transform:
   m_LocalScale: {x: 1.0000001, y: 0.99999976, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1788636538}
   - {fileID: 844177528}
   m_Father: {fileID: 549936805}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24165,7 +22642,6 @@ Transform:
   m_LocalScale: {x: 0.99999976, y: 1.0000002, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 391481270}
   - {fileID: 944146168}
   m_Father: {fileID: 610916533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24259,6 +22735,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
+--- !u!1 &935298053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 935298054}
+  m_Layer: 0
+  m_Name: Conn_L1-Lp21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &935298054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935298053}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.6904122, y: -0.3267795, z: 0.15274389, w: -0.62706894}
+  m_LocalPosition: {x: 0.02901, y: 0.4298, z: 0.03597}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1787424753}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937625413
 GameObject:
   m_ObjectHideFlags: 0
@@ -24534,79 +23041,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 97431912584752638, guid: a276c015d449d7541a328dd523ea85df, type: 3}
---- !u!1001 &946349641
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1727497971}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: c7aa2266ba687fb4e91a56ba712facd5, type: 2}
-    - target: {fileID: 919132149155446097, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp21_visual_ECM_vis_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
 --- !u!1001 &946622453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24843,52 +23277,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1486888576}
   m_SourcePrefab: {fileID: 100100000, guid: ec305dbf0754fbd4ebef802da7047f79, type: 3}
---- !u!1 &954702851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 954702852}
-  - component: {fileID: 954702853}
-  m_Layer: 0
-  m_Name: Lp21_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &954702852
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954702851}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4304592, y: -0.5609855, z: -0.5609856, w: 0.4304594}
-  m_LocalPosition: {x: -0.075301304, y: 0.01250024, z: -0.020176478}
-  m_LocalScale: {x: 1.0000002, y: 0.9999999, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 575657105}
-  m_Father: {fileID: 1276586989}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &954702853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954702851}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &957613556 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 54d9e4461a7847d4d8d220d4aec24341, type: 3}
@@ -25165,52 +23553,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1182569006}
   m_SourcePrefab: {fileID: 100100000, guid: 5f117ee268e737648abe59e654f8b251, type: 3}
---- !u!1 &967568932
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 967568933}
-  - component: {fileID: 967568934}
-  m_Layer: 0
-  m_Name: L0_visual_TOOL1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &967568933
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967568932}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.7071069, y: 0.000000053385033, z: -0.70710665, w: 0.00000013767874}
-  m_LocalPosition: {x: 0.0007550118, y: -0.27811122, z: -0.000000016351189}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1108514606}
-  m_Father: {fileID: 1727130773}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &967568934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967568932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &969163061
 GameObject:
   m_ObjectHideFlags: 0
@@ -25262,52 +23604,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 98c392f14c896dc4ea12e5a34d9fc85c, type: 3}
   m_PrefabInstance: {fileID: 1603453469}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &971433956
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 971433957}
-  - component: {fileID: 971433958}
-  m_Layer: 0
-  m_Name: Lp11_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &971433957
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971433956}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.69877255, y: -0.6993171, z: 0.09997194, w: -0.11259718}
-  m_LocalPosition: {x: -0.090374686, y: 0.017402992, z: -0.032445807}
-  m_LocalScale: {x: 0.99999964, y: 1.0000005, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 800123388}
-  m_Father: {fileID: 435543937}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &971433958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 971433956}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1001 &972855741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25414,50 +23710,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5230683505177269620, guid: 177c41ffea6178a4eacc08e069f70df4, type: 3}
---- !u!1 &975503755
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 975503756}
-  - component: {fileID: 975503757}
-  m_Layer: 0
-  m_Name: Plugins
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &975503756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975503755}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 476376938}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &975503757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975503755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae53a797b5479c43b9a3aeac7e35e5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfPlugins
 --- !u!1 &979528165
 GameObject:
   m_ObjectHideFlags: 0
@@ -25504,57 +23756,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &981657403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 981657404}
-  - component: {fileID: 981657405}
-  m_Layer: 0
-  m_Name: Lp21_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &981657404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981657403}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4304591, y: -0.5609855, z: -0.56098574, w: 0.43045932}
-  m_LocalPosition: {x: -0.07530156, y: 0.012499687, z: -0.020176645}
-  m_LocalScale: {x: 0.99999964, y: 1.0000005, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 819084274}
-  m_Father: {fileID: 1887175027}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &981657405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981657403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
---- !u!4 &981796681 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 27ec993deee7a4d45903d25716733e8c, type: 3}
-  m_PrefabInstance: {fileID: 611643968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &982970702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25629,11 +23830,37 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 917254398}
   m_SourcePrefab: {fileID: 100100000, guid: af5445e63710e2c4f8e317d017df451b, type: 3}
---- !u!4 &983218021 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 09aa6bdd5527a484e9090e0e920724d7, type: 3}
-  m_PrefabInstance: {fileID: 389974949}
+--- !u!1 &984205292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984205293}
+  m_Layer: 0
+  m_Name: Conn_Lp21-L1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &984205293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984205292}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1505, y: 0.01972, z: -0.0401}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2092726217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &986645425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27280,7 +25507,6 @@ Transform:
   m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 357701229}
   - {fileID: 827665876}
   m_Father: {fileID: 1122882628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27828,11 +26054,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5230683505177269620, guid: 00e56d8b2081db54c944686aa509f78e, type: 3}
---- !u!4 &1108514606 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-  m_PrefabInstance: {fileID: 1740902867}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1108541804
 GameObject:
   m_ObjectHideFlags: 0
@@ -28848,51 +27069,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1573140261}
   m_SourcePrefab: {fileID: 100100000, guid: a316c6201f2a2314f82be954b948e668, type: 3}
---- !u!1 &1135177640
-GameObject:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1135177641}
-  - component: {fileID: 1135177642}
-  m_Layer: 0
-  m_Name: Collisions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1135177641
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135177640}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1947262794}
-  m_Father: {fileID: 1683979927}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1135177642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1135177640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
 --- !u!1 &1137558822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 44ae167ddd0fea44398e890f231bf872, type: 3}
@@ -28925,75 +27101,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 719260061377668572, guid: 44ae167ddd0fea44398e890f231bf872, type: 3}
---- !u!1001 &1141335582
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2051754341}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 0d051dd96a613914bb8024a452ee64d3, type: 2}
-    - target: {fileID: 919132149155446097, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L1_visual_TOOL1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fbcad354e633d564581c45eb2e3fb33a, type: 3}
 --- !u!4 &1144960740 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a231318fabf5ab84a80cbc382119e0e0, type: 3}
@@ -29182,7 +27289,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1762322244}
   - {fileID: 99512827}
   m_Father: {fileID: 1307572317}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29558,11 +27664,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 97431912584752638, guid: 6e79ca0091dbebf4f885646759b0a500, type: 3}
---- !u!4 &1177380774 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c573b26b3be329e49855de00bb91177f, type: 3}
-  m_PrefabInstance: {fileID: 47078405}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1180448384
 GameObject:
   m_ObjectHideFlags: 0
@@ -31250,75 +29351,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1953811203}
   m_SourcePrefab: {fileID: 100100000, guid: 9e572ca3cd2ffaa48800f11524fe5e88, type: 3}
---- !u!1001 &1246656508
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 832290510}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.000000045782834
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00000023841875
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0000003448451
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 489daa8f0f750834093df284a5a5c9aa, type: 2}
-    - target: {fileID: 919132149155446097, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L2_visual_TOOL1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 21dfefc264f077f4c8ede31c6c738842, type: 3}
 --- !u!1001 &1247196782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31721,7 +29753,7 @@ GameObject:
   - component: {fileID: 1254909898}
   - component: {fileID: 1254909899}
   m_Layer: 0
-  m_Name: L0_visual_TOOL1
+  m_Name: L0_visual_TOOL1_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32226,75 +30258,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1479426152}
   m_SourcePrefab: {fileID: 100100000, guid: 84da8ab4b2132274fbf2e2ebe71aca18, type: 3}
---- !u!1001 &1273288050
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 193527963}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 7639ffb0bfca223428956ef15bf9a5be, type: 2}
-    - target: {fileID: 919132149155446097, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L1_visual_PSM1_vis_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
 --- !u!1 &1276586988
 GameObject:
   m_ObjectHideFlags: 8
@@ -32325,7 +30288,6 @@ Transform:
   m_LocalScale: {x: 1.0000002, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 954702852}
   - {fileID: 585310078}
   m_Father: {fileID: 1996951057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -33733,79 +31695,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1831000203}
   m_SourcePrefab: {fileID: 100100000, guid: d10a0818f2ac32c4dbd375ad8b0b6026, type: 3}
---- !u!1 &1330166847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1330166850}
-  - component: {fileID: 1330166849}
-  - component: {fileID: 1330166848}
-  m_Layer: 0
-  m_Name: setupJointBase_respondable
-  m_TagString: robot
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1330166848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330166847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d607ea46a579d44c4b19a6322ce4b9b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.Control.Controller
-  selectedJoint: 
-  selectedIndex: 0
-  control: 0
-  stiffness: 0
-  damping: 0
-  forceLimit: 0
-  speed: 5
-  torque: 100
-  acceleration: 5
-  highLightColor: {r: 1, g: 0, b: 0, a: 1}
---- !u!114 &1330166849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330166847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbf4c79288754864b8d522b69f4b52a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfRobot
-  FilePath: 
-  chosenAxis: 0
-  currentOrientation: 0
-  collisionExceptions: []
---- !u!4 &1330166850
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330166847}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1862049639}
-  - {fileID: 1683979927}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331604060 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b44ea5f8125925c44b36896d047e7b21, type: 3}
@@ -34436,52 +32325,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1648886097}
   m_SourcePrefab: {fileID: 100100000, guid: 80db81b931fc71d46bdda9e5d72176c4, type: 3}
---- !u!1 &1349675349
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1349675350}
-  - component: {fileID: 1349675351}
-  m_Layer: 0
-  m_Name: Lp1_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1349675350
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349675349}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.42880744, y: -0.42880765, z: 0.56224895, w: -0.56224936}
-  m_LocalPosition: {x: 0.06923268, y: 0.0000004889316, z: -0.25268835}
-  m_LocalScale: {x: 0.99999976, y: 1, z: 1.0000006}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1912561642}
-  m_Father: {fileID: 1483341412}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1349675351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349675349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1350010624
 GameObject:
   m_ObjectHideFlags: 8
@@ -34513,7 +32356,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1583122545}
-  - {fileID: 1727497971}
   m_Father: {fileID: 115082329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1350010626
@@ -34684,79 +32526,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7270707208366389044, guid: 179f62060dc53ca4e9658970bc183bc1, type: 3}
---- !u!1001 &1363959608
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1349675350}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999996
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000012729745
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000017282534
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000001058615
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: b3fe2a2c244611447b0551b77ed1b88a, type: 2}
-    - target: {fileID: 919132149155446097, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp1_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
 --- !u!4 &1364088364 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bae67a9fedf567442b873ef883f66d11, type: 3}
@@ -35904,52 +33673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &1430770412
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1430770413}
-  - component: {fileID: 1430770414}
-  m_Layer: 0
-  m_Name: L3_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1430770413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430770412}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.70710695, y: 0.00000016928887, z: -0.7071066, w: 0.00000014821555}
-  m_LocalPosition: {x: 0.020746602, y: -0.27960047, z: -0.000000015014445}
-  m_LocalScale: {x: 0.99999976, y: 1, z: 1.0000006}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2062726235}
-  m_Father: {fileID: 391402194}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1430770414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430770412}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1432692383
 GameObject:
   m_ObjectHideFlags: 0
@@ -37001,7 +34724,6 @@ Transform:
   m_LocalScale: {x: 0.99999976, y: 1.0000002, z: 1.0000004}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1349675350}
   - {fileID: 1342417486}
   m_Father: {fileID: 1859944657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37246,75 +34968,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7270707208366389044, guid: 32574af72d869a94b8a2389b39fee3a6, type: 3}
---- !u!1001 &1498249355
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 954702852}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000016398407
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000013411059
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0000000952914
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a7907fd14f58d1041b79b67d0c0edc1b, type: 2}
-    - target: {fileID: 919132149155446097, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp21_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e11fe9e0dc326044983d43890e35d1a1, type: 3}
 --- !u!1001 &1498967315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37426,75 +35079,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f654d0461bc92c4b868aac47d2b4264, type: 3}
   m_PrefabInstance: {fileID: 2137099170}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1506532800
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 357701229}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999964
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.158542e-11
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00000026611613
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.00000006839157
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1fc7c59720d4e3b42b0c10d4bb7eaac0, type: 2}
-    - target: {fileID: 919132149155446097, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L2_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
 --- !u!1 &1516696546
 GameObject:
   m_ObjectHideFlags: 0
@@ -38083,7 +35667,6 @@ Transform:
   m_LocalScale: {x: 1, y: 0.99999964, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2146263875}
   - {fileID: 1180448385}
   m_Father: {fileID: 189880610}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38535,79 +36118,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5331323809398467353, guid: 8cac336b392af0543aee248e2b82a161, type: 3}
---- !u!1001 &1560216104
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2146263875}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000020635771
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000000023126455
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000005134861
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: d5aa4bbb412559647bb190d5fbd9510a, type: 2}
-    - target: {fileID: 919132149155446097, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L3_sx_visual_TOOL1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 287c3afd2490f974a9ea2fd9800864b7, type: 3}
 --- !u!1 &1560648186 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7d1f6820153b20e4daddd41dfe1314d8, type: 3}
@@ -38825,11 +36335,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &1573009965 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 46a7faee2e223a64f93ecfdaa7c40bd6, type: 3}
-  m_PrefabInstance: {fileID: 1273288050}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1573140259 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a316c6201f2a2314f82be954b948e668, type: 3}
@@ -40023,52 +37528,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &1614141444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1614141445}
-  - component: {fileID: 1614141446}
-  m_Layer: 0
-  m_Name: L4_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1614141445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614141444}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00002145836, y: 0.21643977, z: -0.00010264954, w: -0.97629595}
-  m_LocalPosition: {x: -0.000025981777, y: 0.11649781, z: -0.000013947911}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1720630643}
-  m_Father: {fileID: 29104196}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1614141446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614141444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1616640147
 GameObject:
   m_ObjectHideFlags: 8
@@ -40416,7 +37875,7 @@ GameObject:
   - component: {fileID: 1633800870}
   - component: {fileID: 1633800871}
   m_Layer: 0
-  m_Name: L3_visual_PSM2
+  m_Name: L3_visual_PSM2_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41202,71 +38661,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 284445674}
   m_SourcePrefab: {fileID: 100100000, guid: f024b407f81835d4cb801155c8e03fdd, type: 3}
---- !u!1001 &1665362827
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1614141445}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.9999999
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.000000004656626
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000107434005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.00000005964048
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: f196367ee8ff2ca4dbbfa553a307ab5c, type: 2}
-    - target: {fileID: 919132149155446097, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L4_visual_ECM_vis_2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
 --- !u!1001 &1666801137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41790,52 +39184,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
---- !u!1 &1683979926
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1683979927}
-  - component: {fileID: 1683979928}
-  m_Layer: 0
-  m_Name: link
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1683979927
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683979926}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1135177641}
-  m_Father: {fileID: 1330166850}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1683979928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1683979926}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fba5fd74d37a6cf4284698624eb8f6aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
-  IsBaseLink: 0
 --- !u!1001 &1684102946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42002,79 +39350,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1001 &1691413366
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1430770413}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999996
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000012729745
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000017282534
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000001058615
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 2d3e1bb1d935cd34c8bb782d584223f2, type: 2}
-    - target: {fileID: 919132149155446097, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L3_visual_PSM2_vis_4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
 --- !u!1 &1696960650
 GameObject:
   m_ObjectHideFlags: 0
@@ -42121,11 +39396,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!4 &1697476891 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e4b5d7ada02dccd47834c68dcd219ba6, type: 3}
-  m_PrefabInstance: {fileID: 946349641}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1697785992
 GameObject:
   m_ObjectHideFlags: 0
@@ -42456,7 +39726,7 @@ GameObject:
   - component: {fileID: 1709545779}
   - component: {fileID: 1709545780}
   m_Layer: 0
-  m_Name: L3_visual_PSM2
+  m_Name: L3_visual_PSM2_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42629,79 +39899,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2669420826622107853, guid: 84fba8e4b35d2a740b2f88a2a3ff0098, type: 3}
---- !u!1001 &1715695115
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 391481270}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9999992
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.9999996
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000012729745
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000017282534
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000001058615
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1c69b56cfdc80a440a4573c0ee0374be, type: 2}
-    - target: {fileID: 919132149155446097, guid: 57608733e05028341a470f05a05fded7, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp2_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 57608733e05028341a470f05a05fded7, type: 3}
 --- !u!1 &1717258478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 081589381a2281d46a475a60ad6a3c75, type: 3}
@@ -42734,11 +39931,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 97431912584752638, guid: 081589381a2281d46a475a60ad6a3c75, type: 3}
---- !u!4 &1720630643 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1808548460fb6d644a6545732d0a9c91, type: 3}
-  m_PrefabInstance: {fileID: 1665362827}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1727130772
 GameObject:
   m_ObjectHideFlags: 8
@@ -42771,7 +39963,6 @@ Transform:
   m_Children:
   - {fileID: 1254909898}
   - {fileID: 2047687999}
-  - {fileID: 967568933}
   m_Father: {fileID: 449514944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1727130774
@@ -42786,121 +39977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!1 &1727497970
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1727497971}
-  - component: {fileID: 1727497972}
-  m_Layer: 0
-  m_Name: Lp21_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1727497971
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727497970}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.33160934, y: 0.6245279, z: 0.6245281, w: 0.33160946}
-  m_LocalPosition: {x: -0.114414096, y: 0.000000007450581, z: 0.07769299}
-  m_LocalScale: {x: 1, y: 1.0000001, z: 0.9999999}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1697476891}
-  m_Father: {fileID: 1350010625}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1727497972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727497970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
---- !u!1001 &1730197669
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 2114627885}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: ee37c5362498df34eb590cda0e5d3a6e, type: 2}
-    - target: {fileID: 919132149155446097, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp2_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d91e8dc2a3a9da6428511e78d42d3fd5, type: 3}
 --- !u!1 &1731490533
 GameObject:
   m_ObjectHideFlags: 0
@@ -43022,7 +40098,6 @@ Transform:
   m_LocalScale: {x: 0.99999934, y: 1.0000007, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 238195052}
   - {fileID: 752198287}
   m_Father: {fileID: 774532927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -43108,75 +40183,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2120153551}
   m_SourcePrefab: {fileID: 100100000, guid: 409236425aa883441bd9ce801dfaf2c5, type: 3}
---- !u!1001 &1740902867
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 967568933}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000004
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: c1d67649b4fc53c4783953ad179bbbb9, type: 2}
-    - target: {fileID: 919132149155446097, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L0_visual_TOOL1_vis_3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 48f7d4d23a209f14bad93ce59d071242, type: 3}
 --- !u!1 &1742989681 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 50cdf62fef53c0843bc49f7e722fa633, type: 3}
@@ -43540,52 +40546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
-  geometryType: 3
---- !u!1 &1762322243
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1762322244}
-  - component: {fileID: 1762322245}
-  m_Layer: 0
-  m_Name: L1_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1762322244
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762322243}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.023508389, y: -0.706716, z: 0.023045292, w: -0.706731}
-  m_LocalPosition: {x: -0.000051982195, y: 0.45797902, z: -0.020645022}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 535094843}
-  m_Father: {fileID: 1157086274}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1762322245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1762322243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
   geometryType: 3
 --- !u!1 &1763028436
 GameObject:
@@ -44198,6 +41158,7 @@ Transform:
   - {fileID: 1228920196}
   - {fileID: 380024435}
   - {fileID: 1349415657}
+  - {fileID: 935298054}
   m_Father: {fileID: 1075233324}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1787424754
@@ -44295,52 +41256,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!1 &1788636537
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1788636538}
-  - component: {fileID: 1788636539}
-  m_Layer: 0
-  m_Name: Lp1_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1788636538
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788636537}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.42880768, y: -0.42880788, z: 0.5622488, w: -0.56224906}
-  m_LocalPosition: {x: 0.06923313, y: -0.00000006567105, z: -0.25268808}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 981796681}
-  m_Father: {fileID: 929548040}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1788636539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788636537}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1788971086
 GameObject:
   m_ObjectHideFlags: 0
@@ -44948,52 +41863,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 860251053}
   m_SourcePrefab: {fileID: 100100000, guid: 5534f7e6ff88cff459ac02a7d81cc706, type: 3}
---- !u!1 &1824453948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1824453949}
-  - component: {fileID: 1824453950}
-  m_Layer: 0
-  m_Name: Lp11_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1824453949
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824453948}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.69877285, y: -0.69931686, z: 0.0999719, w: -0.112596974}
-  m_LocalPosition: {x: -0.09037443, y: 0.01740303, z: -0.03244563}
-  m_LocalScale: {x: 1.0000002, y: 0.9999999, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 786080686}
-  m_Father: {fileID: 798768594}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1824453950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824453948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1824816382
 GameObject:
   m_ObjectHideFlags: 0
@@ -45444,7 +42313,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1082715458}
-  - {fileID: 97734901}
   - {fileID: 1091787372}
   m_Father: {fileID: 1879900274}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45745,67 +42613,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -589013772469121986, guid: ff6114c93c2161e4cb22cc2403c92c02, type: 3}
---- !u!1001 &1844902097
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1762322244}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a32f65363d09fad43aed5b9135b69af1, type: 2}
-    - target: {fileID: 919132149155446097, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_L1_visual_ECM_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b82f55c1727ec19449ade332fe45d9a4, type: 3}
 --- !u!1 &1845385902 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d462fe16f95c5884da73e8c85327d8c8, type: 3}
@@ -45973,98 +42780,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1114090158}
   m_SourcePrefab: {fileID: 100100000, guid: d97840298705faa4db0e81df02557a16, type: 3}
---- !u!1 &1854593613
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1854593614}
-  - component: {fileID: 1854593615}
-  m_Layer: 0
-  m_Name: Lp22_visual_ECM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1854593614
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854593613}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.7010573, y: -0.09229582, z: -0.09229585, w: 0.70105755}
-  m_LocalPosition: {x: 0.032484036, y: -0.0000000055879767, z: -0.1502109}
-  m_LocalScale: {x: 0.99999934, y: 1.0000006, z: 1.0000001}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 321131657}
-  m_Father: {fileID: 783354504}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1854593615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854593613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
---- !u!1 &1856374512
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1856374513}
-  - component: {fileID: 1856374514}
-  m_Layer: 0
-  m_Name: L3_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1856374513
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856374512}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.70710695, y: 0.00000016928887, z: -0.7071066, w: 0.00000014821555}
-  m_LocalPosition: {x: 0.020746602, y: -0.27960047, z: -0.000000015014445}
-  m_LocalScale: {x: 0.99999976, y: 1, z: 1.0000006}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 29165721}
-  m_Father: {fileID: 391402194}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1856374514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856374512}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1001 &1856828903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46341,50 +43056,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 776973322}
   m_SourcePrefab: {fileID: 100100000, guid: c877543a67a460c46bfb904419edbf8d, type: 3}
---- !u!1 &1862049638
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1862049639}
-  - component: {fileID: 1862049640}
-  m_Layer: 0
-  m_Name: Plugins
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1862049639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862049638}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1330166850}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862049640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862049638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fae53a797b5479c43b9a3aeac7e35e5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfPlugins
 --- !u!4 &1867018427 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 43e8a56710bfad8469695fecd646c127, type: 3}
@@ -46872,7 +43543,6 @@ Transform:
   m_LocalScale: {x: 0.99999964, y: 1.0000001, z: 0.9999999}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 981657404}
   - {fileID: 1577701535}
   m_Father: {fileID: 2092726217}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46888,79 +43558,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!1001 &1887208657
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 981657404}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.0000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.99999964
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.0000007
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000027244255
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00000008940682
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000009737195
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: dd8bcc8e33faf554480bb4e491b8fdce, type: 2}
-    - target: {fileID: 919132149155446097, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp21_visual_PSM2_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 18139cd9829aaaf40a908d14d4079400, type: 3}
 --- !u!1 &1889361744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a440f69656dee8b47bed742e1bfd4301, type: 3}
@@ -47207,11 +43804,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7270707208366389044, guid: 21ed513cf94b7334791f906e66d3aa0a, type: 3}
---- !u!4 &1912561642 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 383847f4885718340950553b9e4b5ba2, type: 3}
-  m_PrefabInstance: {fileID: 1363959608}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1913033614
 GameObject:
   m_ObjectHideFlags: 0
@@ -47781,7 +44373,7 @@ ArticulationBody:
     m_Bits: 0
   m_ImplicitCom: 0
   m_ImplicitTensor: 0
-  m_Immovable: 0
+  m_Immovable: 1
   m_UseGravity: 1
   m_CollisionDetectionMode: 0
 --- !u!114 &1925757127
@@ -48392,51 +44984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46398bc5d6905ad429a6d2d973afe002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollisions
---- !u!1 &1947262793
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1947262794}
-  - component: {fileID: 1947262795}
-  m_Layer: 0
-  m_Name: unnamed
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1947262794
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947262793}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1135177641}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1947262795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947262793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0c8ba1123c5f949b20e50d5dd6afe4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
-  geometryType: 3
 --- !u!4 &1951557204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4c40279a62b5e814fa1900493874cd4a, type: 3}
@@ -49244,52 +45791,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1208732218}
   m_SourcePrefab: {fileID: 100100000, guid: 5ef9698bd18bc054e8596c13e0a0ebb4, type: 3}
---- !u!1 &1979977345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1979977346}
-  - component: {fileID: 1979977347}
-  m_Layer: 0
-  m_Name: L2_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1979977346
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979977345}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.44301042, y: 0.44301105, z: 0.55112755, w: 0.5511275}
-  m_LocalPosition: {x: -0.039569847, y: -0.0000005754226, z: 0.27583638}
-  m_LocalScale: {x: 1.0000002, y: 1.0000005, z: 0.99999946}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 482527702}
-  m_Father: {fileID: 315479505}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1979977347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1979977345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &1980064334
 GameObject:
   m_ObjectHideFlags: 0
@@ -49762,75 +46263,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
---- !u!1001 &1997415118
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1824453949}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0000002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.99999976
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.00000029066638
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.000000022351758
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.00000010797382
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.49999994
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.49999988
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.5000001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 1d1035fa0379f1044bd9550972b2f053, type: 2}
-    - target: {fileID: 919132149155446097, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
-      propertyPath: m_Name
-      value: dvkr_robot_Lp11_visual_PSM1_vis_1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9cd47a70254549e4392164f8d02d1821, type: 3}
 --- !u!1 &1997935945
 GameObject:
   m_ObjectHideFlags: 0
@@ -50055,52 +46487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
---- !u!1 &2017519638
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2017519639}
-  - component: {fileID: 2017519640}
-  m_Layer: 0
-  m_Name: L0_visual_PSM2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2017519639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017519638}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.27273765, y: 0.27269825, z: -0.6523893, w: -0.65240943}
-  m_LocalPosition: {x: 0.061183065, y: 0.11793106, z: 0.062066026}
-  m_LocalScale: {x: 1.0000001, y: 1.0000005, z: 0.9999996}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 117023924}
-  m_Father: {fileID: 555795691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2017519640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2017519638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &2021564737
 GameObject:
   m_ObjectHideFlags: 8
@@ -50399,11 +46785,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2032508105 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 84be2de8495d4c446abd4c92ca272f1d, type: 3}
-  m_PrefabInstance: {fileID: 1506532800}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2032869653
 GameObject:
   m_ObjectHideFlags: 0
@@ -50808,7 +47189,7 @@ GameObject:
   - component: {fileID: 2047687999}
   - component: {fileID: 2047688000}
   m_Layer: 0
-  m_Name: L0_visual_TOOL1
+  m_Name: L0_visual_TOOL1_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50875,52 +47256,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7270707208366389044, guid: 4bc41605f0c85064ba37a9a7e6fac9b8, type: 3}
---- !u!1 &2051754340
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2051754341}
-  - component: {fileID: 2051754342}
-  m_Layer: 0
-  m_Name: L1_visual_TOOL1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2051754341
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051754340}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.000040596835, y: -0.99232066, z: -0.00032414455, w: -0.12369186}
-  m_LocalPosition: {x: 0.00000011950932, y: 0.22701132, z: 0.000001013279}
-  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 511738640}
-  m_Father: {fileID: 643089312}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2051754342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051754340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &2054048623 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f5d85b01292ff3e48846c596e939af6c, type: 3}
@@ -51139,11 +47474,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5331323809398467353, guid: c9a6c2e4e53864749add28d4972ca6df, type: 3}
---- !u!4 &2062726235 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c1b90ad651068c84e83da2831b7d0d99, type: 3}
-  m_PrefabInstance: {fileID: 1691413366}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2067720905
 GameObject:
   m_ObjectHideFlags: 0
@@ -51754,6 +48084,7 @@ GameObject:
   - component: {fileID: 2092726220}
   - component: {fileID: 2092726219}
   - component: {fileID: 2092726218}
+  - component: {fileID: 2092726221}
   m_Layer: 0
   m_Name: Lp21_respondable_PSM2
   m_TagString: Untagged
@@ -51776,6 +48107,7 @@ Transform:
   m_Children:
   - {fileID: 1826331825}
   - {fileID: 1887175027}
+  - {fileID: 984205293}
   m_Father: {fileID: 610916533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2092726218
@@ -51873,6 +48205,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
+--- !u!114 &2092726221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092726216}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0768107c1086e5047b43f49192402daa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  linkA: {fileID: 2092726217}
+  anchorOnA: {fileID: 984205293}
+  linkB: {fileID: 1787424753}
+  anchorOnB: {fileID: 935298054}
+  mode: 0
+  useFixedUpdate: 0
+  positionEpsilon: 0.000001
+  drawGizmos: 1
 --- !u!1 &2093021209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: df3842e608081d64b9c67f64970a7cfc, type: 3}
@@ -52116,52 +48468,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -14754764220205380, guid: 71d0234530a30dc44ab110b10db4b337, type: 3}
---- !u!1 &2114627884
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2114627885}
-  - component: {fileID: 2114627886}
-  m_Layer: 0
-  m_Name: Lp2_visual_PSM1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2114627885
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114627884}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.562183, y: 0.56221265, z: -0.42886373, w: -0.42888603}
-  m_LocalPosition: {x: 0.048980072, y: 0.000008896354, z: -0.25823617}
-  m_LocalScale: {x: 1.0000002, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 825378453}
-  m_Father: {fileID: 884111018}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2114627886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2114627884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1001 &2116036883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52610,52 +48916,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfCollision
   geometryType: 3
---- !u!1 &2146263874
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2146263875}
-  - component: {fileID: 2146263876}
-  m_Layer: 0
-  m_Name: L3_sx_visual_TOOL1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2146263875
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146263874}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.3779961, y: -0.60425276, z: -0.5256484, w: 0.46442586}
-  m_LocalPosition: {x: -0.003387289, y: 0.00044696633, z: -0.0010159529}
-  m_LocalScale: {x: 1.0000001, y: 0.99999964, z: 0.99999976}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 454408584}
-  m_Father: {fileID: 1546755483}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2146263876
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146263874}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b2685e7e7719cd43814f41f35664c0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisual
-  geometryType: 3
 --- !u!1 &2146287600
 GameObject:
   m_ObjectHideFlags: 8
@@ -52914,6 +49174,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 2032101050}
-  - {fileID: 476376938}
-  - {fileID: 1330166850}
   - {fileID: 61936516}
