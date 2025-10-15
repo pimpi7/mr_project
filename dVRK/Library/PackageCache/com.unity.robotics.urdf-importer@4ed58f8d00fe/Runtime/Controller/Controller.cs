@@ -38,7 +38,7 @@ namespace Unity.Robotics.UrdfImporter.Control
             int defDyanmicVal = 10;
             foreach (ArticulationBody joint in articulationChain)
             {
-                joint.gameObject.AddComponent<JointControl>();
+                joint.gameObject.AddComponent<JointControl>(); //!!!
                 joint.jointFriction = defDyanmicVal;
                 joint.angularDamping = defDyanmicVal;
                 ArticulationDrive currentDrive = joint.xDrive;
@@ -49,11 +49,12 @@ namespace Unity.Robotics.UrdfImporter.Control
             StoreJointColors(selectedIndex);
         }
 
+        /*Allows the joint selection via arrows to be recursive*/
         void SetSelectedJointIndex(int index)
         {
             if (articulationChain.Length > 0) 
             {
-                selectedIndex = (index + articulationChain.Length) % articulationChain.Length;
+                selectedIndex = (index + articulationChain.Length) % articulationChain.Length; 
             }
         }
 
