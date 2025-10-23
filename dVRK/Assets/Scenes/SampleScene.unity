@@ -14775,9 +14775,9 @@ ArticulationBody:
   serializedVersion: 5
   m_Mass: 1
   m_ParentAnchorPosition: {x: 0.00017708425, y: 0.00000025331968, z: 0.15591057}
-  m_ParentAnchorRotation: {x: 0.7067041, y: -0.00000021827967, z: -0.7075095, w: 0.00000058680916}
+  m_ParentAnchorRotation: {x: 0.5603806, y: -0.5603802, z: -0.43124682, w: 0.43124712}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
-  m_AnchorRotation: {x: 0, y: -0.12969816, z: 0.0000005570191, w: 0.99155354}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
   m_MatchAnchors: 1
   m_ArticulationJointType: 2
   m_LinearX: 0
@@ -25406,9 +25406,9 @@ ArticulationBody:
   serializedVersion: 5
   m_Mass: 1
   m_ParentAnchorPosition: {x: -0.08592789, y: -0.36496204, z: -0.00013789536}
-  m_ParentAnchorRotation: {x: -0.0000014305115, y: 0.9226462, z: 0.3856479, w: -0.0000034570694}
+  m_ParentAnchorRotation: {x: 0.4983921, y: 0.49839208, z: 0.50160027, w: -0.5016055}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
-  m_AnchorRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_AnchorRotation: {x: 0, y: 0.38268346, z: 0, w: 0.9238795}
   m_MatchAnchors: 1
   m_ArticulationJointType: 2
   m_LinearX: 0
@@ -32396,9 +32396,9 @@ ArticulationBody:
   serializedVersion: 5
   m_Mass: 1
   m_ParentAnchorPosition: {x: 0.00000035742386, y: -0.00000059400077, z: 0.0000005862092}
-  m_ParentAnchorRotation: {x: 0.6408045, y: -0.64090824, z: 0.2989483, w: -0.2987246}
+  m_ParentAnchorRotation: {x: -0.000073343515, y: -0.9063078, z: 0.00015819073, w: -0.42261854}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
-  m_AnchorRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.70710677, w: -0.70710677}
   m_MatchAnchors: 1
   m_ArticulationJointType: 2
   m_LinearX: 1
@@ -43143,10 +43143,10 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: -0.009399986, y: 0.0000004991888, z: 0.19164954}
-  m_ParentAnchorRotation: {x: 0.72421867, y: -0.00000041581217, z: -0.68957067, w: 0.0000007378635}
-  m_AnchorPosition: {x: -0.00000013412838, y: -0.00000017881395, z: 0.00000015715482}
-  m_AnchorRotation: {x: 0, y: -0.10479998, z: 0.00000081400015, w: 0.99449337}
+  m_ParentAnchorPosition: {x: -0.00939974, y: 0.0000004544853, z: 0.19164927}
+  m_ParentAnchorRotation: {x: 0.5603806, y: -0.5603802, z: -0.43124682, w: 0.43124712}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
   m_MatchAnchors: 1
   m_ArticulationJointType: 2
   m_LinearX: 0
