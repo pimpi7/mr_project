@@ -12,7 +12,7 @@ public class JointControl : MonoBehaviour
     public float speed ;
     public float torque ;
     public float acceleration;
-    public ArticulationBody joint;
+    public ArticulationBody joint; //ciao
 
 
     void Start()
