@@ -2,5 +2,5 @@
 Migration from CoppeliaSim to Unity and improvement of the dVRK model
 
 # TODO
-- Francesco & Kristjan: PSMs - Closed Chain Behaviour
-- Andrea & Gabriel: ECM - Behaviour and camera integration
+- Francesco & Kristjan: PSMs - RCM Costraint and Closed Chain
+- Andrea & Gabriel: ECM - RCM Costraint
