@@ -18312,6 +18312,7 @@ GameObject:
   - component: {fileID: 744038097}
   - component: {fileID: 744038096}
   - component: {fileID: 744038095}
+  - component: {fileID: 744038098}
   m_Layer: 0
   m_Name: L2_respondable_TOOL1
   m_TagString: Untagged
@@ -18433,6 +18434,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
+--- !u!114 &744038098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744038093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c40c7ab9df2045458f4472bc7352dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GripperKeyboardController
+  gripperRightJoint: {fileID: 1580680565}
+  gripperLeftJoint: {fileID: 189880612}
+  speed: 50
+  maxOpeningAngle: 45
+  minOpeningAngle: 0
+  openKey: 117
+  closeKey: 106
 --- !u!4 &745567918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c21ee5c3bc4013a47bb1824dd18ceb74, type: 3}
@@ -19326,7 +19346,7 @@ GameObject:
   - component: {fileID: 774532929}
   - component: {fileID: 774532928}
   m_Layer: 0
-  m_Name: L2_respondable_ECM
+  m_Name: Lp23_respondable_ECM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19347,6 +19367,7 @@ Transform:
   m_Children:
   - {fileID: 330732359}
   - {fileID: 1738229570}
+  - {fileID: 822669840}
   m_Father: {fileID: 1261035562}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &774532928
@@ -19375,8 +19396,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: -0.250761, y: -0.00000020861629, z: -0.21497615}
-  m_ParentAnchorRotation: {x: -0.0000002528811, y: -0.0000002528811, z: -0.70710695, w: 0.70710707}
+  m_ParentAnchorPosition: {x: 0.08799899, y: -0.000000058029904, z: -0.32841593}
+  m_ParentAnchorRotation: {x: 0.09229592, y: -0.092296265, z: -0.70105755, w: 0.70105755}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -20479,15 +20500,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822669839}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7933532, y: 0.00000009229578, z: -0.00000009229578, w: -0.60876167}
-  m_LocalPosition: {x: 0.000000004656613, y: 0.09892008, z: 0.3691761}
-  m_LocalScale: {x: 0.99999976, y: 0.9999999, z: 0.99999976}
+  m_LocalRotation: {x: 0.09229582, y: -0.09229599, z: 0.7010573, w: -0.7010575}
+  m_LocalPosition: {x: -0.118416786, y: 0, z: -0.06410302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1680852971}
   - {fileID: 589318430}
   - {fileID: 1216248308}
-  m_Father: {fileID: 1307572317}
+  m_Father: {fileID: 774532927}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &822669841
 MonoBehaviour:
@@ -20515,8 +20536,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: 0, y: 0.09892005, z: 0.3691762}
-  m_ParentAnchorRotation: {x: 0.56098557, y: -0.56098545, z: -0.43045965, w: -0.43045953}
+  m_ParentAnchorPosition: {x: -0.118416846, y: -2.2651386e-10, z: -0.064103186}
+  m_ParentAnchorRotation: {x: -0.0000001937151, y: -0.13052604, z: -0.00000029802322, w: -0.9914453}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_MatchAnchors: 1
@@ -29047,6 +29068,7 @@ Transform:
   m_Children:
   - {fileID: 2080363041}
   - {fileID: 29104196}
+  - {fileID: 2107248996}
   m_Father: {fileID: 822669840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1216248309
@@ -29075,8 +29097,8 @@ ArticulationBody:
   m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
-  m_ParentAnchorPosition: {x: -0.000000010244573, y: -0.0000003953024, z: -0.00000013677439}
-  m_ParentAnchorRotation: {x: -0.0000001937151, y: -0.00000031292439, z: 0.00000016344711, w: 1.0000004}
+  m_ParentAnchorPosition: {x: 2.2642882e-10, y: -0.00000035339525, z: -0.0000002643869}
+  m_ParentAnchorRotation: {x: -0.00000023841858, y: -0.00000029057264, z: 0.00000003632158, w: 1.0000005}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
   m_AnchorRotation: {x: 0, y: 0, z: 0, w: 1}
   m_MatchAnchors: 1
@@ -30334,13 +30356,13 @@ ArticulationBody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1261035561}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 5
   m_Mass: 1
   m_ParentAnchorPosition: {x: -0.250761, y: -0.00000004470349, z: 0.12502523}
-  m_ParentAnchorRotation: {x: -0.09229618, y: 0.09229602, z: -0.70105755, w: 0.70105755}
+  m_ParentAnchorRotation: {x: 0.09229601, y: 0.092296176, z: 0.7010575, w: 0.7010575}
   m_AnchorPosition: {x: 0, y: 0, z: 0}
-  m_AnchorRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.70710677, w: 0.70710677}
   m_MatchAnchors: 1
   m_ArticulationJointType: 2
   m_LinearX: 0
@@ -30757,6 +30779,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9090ae501ff9cd459bec5271d40249c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfVisuals
+--- !u!1 &1278183510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278183511}
+  m_Layer: 0
+  m_Name: L2_Visual_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278183511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278183510}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2107248996}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1281748861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31623,7 +31676,6 @@ Transform:
   m_Children:
   - {fileID: 881024826}
   - {fileID: 1157086274}
-  - {fileID: 822669840}
   - {fileID: 115082329}
   m_Father: {fileID: 614867682}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38185,6 +38237,7 @@ GameObject:
   - component: {fileID: 1624230447}
   - component: {fileID: 1624230446}
   - component: {fileID: 1624230445}
+  - component: {fileID: 1624230448}
   m_Layer: 0
   m_Name: L2_respondable_TOOL2
   m_TagString: Untagged
@@ -38250,8 +38303,8 @@ ArticulationBody:
   m_SwingZ: 2
   m_Twist: 2
   m_XDrive:
-    lowerLimit: 0
-    upperLimit: 0
+    lowerLimit: -45
+    upperLimit: 65
     stiffness: 0
     damping: 0
     forceLimit: 3.4028235e+38
@@ -38306,6 +38359,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Robotics.UrdfImporter::Unity.Robotics.UrdfImporter.UrdfLink
   IsBaseLink: 0
+--- !u!114 &1624230448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624230443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c40c7ab9df2045458f4472bc7352dea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GripperKeyboardController
+  gripperRightJoint: {fileID: 2040265930}
+  gripperLeftJoint: {fileID: 551066334}
+  speed: 50
+  maxOpeningAngle: 45
+  minOpeningAngle: 0
+  openKey: 105
+  closeKey: 107
 --- !u!1 &1630288626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 80a3948587027ff4ab5af6544e758b03, type: 3}
@@ -48743,6 +48815,123 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 174002505}
   m_SourcePrefab: {fileID: 100100000, guid: 1416af8bbc932944fb0fc64ca87fd792, type: 3}
+--- !u!1 &2107248995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107248996}
+  - component: {fileID: 2107248998}
+  - component: {fileID: 2107248997}
+  m_Layer: 0
+  m_Name: L2_Dummy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107248996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107248995}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5609853, y: 0.56098557, z: -0.43045977, w: 0.4304592}
+  m_LocalPosition: {x: 0, y: 0.38219997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1278183511}
+  m_Father: {fileID: 1216248308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
+--- !u!114 &2107248997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107248995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9afbcb94acea1f4285226467efc11a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MasterSlaveJointSync
+  masterJoint: {fileID: 2107248998}
+  slaveJoints:
+  - {fileID: 115082331}
+  - {fileID: 1261035564}
+  - {fileID: 774532929}
+--- !u!171741748 &2107248998
+ArticulationBody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107248995}
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Mass: 1
+  m_ParentAnchorPosition: {x: -0.000000005326527, y: 0.3822, z: -0.0000001422399}
+  m_ParentAnchorRotation: {x: 0.79335356, y: 0.00000011920929, z: -0.0000002682209, w: 0.608762}
+  m_AnchorPosition: {x: 0, y: 0, z: 0}
+  m_AnchorRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_MatchAnchors: 1
+  m_ArticulationJointType: 2
+  m_LinearX: 2
+  m_LinearY: 0
+  m_LinearZ: 0
+  m_SwingY: 2
+  m_SwingZ: 2
+  m_Twist: 1
+  m_XDrive:
+    lowerLimit: -35
+    upperLimit: 65
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+    driveType: 0
+  m_YDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+    driveType: 0
+  m_ZDrive:
+    lowerLimit: 0
+    upperLimit: 0
+    stiffness: 0
+    damping: 0
+    forceLimit: 3.4028235e+38
+    target: 0
+    targetVelocity: 0
+    driveType: 0
+  m_LinearDamping: 0.05
+  m_AngularDamping: 0.05
+  m_JointFriction: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_Immovable: 0
+  m_UseGravity: 1
+  m_CollisionDetectionMode: 0
 --- !u!1 &2107934980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6dc4feacbcc10e41a148e16649d5df3, type: 3}
