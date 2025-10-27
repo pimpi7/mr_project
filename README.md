@@ -4,7 +4,8 @@ Migration from CoppeliaSim to Unity and improvement of the dVRK model
 # TODO
 - Francesco & Kristjan: PSMs
   - RCM Costraint and Closed Chain DONE✔️
-  - Behaviour refinement and prismatic Tool
+  - Behaviour refinement 
+  - Prismatic Tool DONE✔️
 - Andrea: 
   - RCM Costraint DONE✔️
   - Add grippers to Francesco_Test DONE✔️
