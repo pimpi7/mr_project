@@ -11,5 +11,5 @@ Migration from CoppeliaSim to Unity and improvement of the dVRK model
   - Add grippers to Francesco_Test DONE✔️
   - Add RCM Costraint to Francesco_Test DONE✔️
 - Gabriel:
-  - Insert chest phantom in the scene
-  - Add the ECM camera to Francesco_Test
+  - Insert chest phantom in the scene DONE✔️
+  - Add the ECM camera to Francesco_Test DONE✔️
