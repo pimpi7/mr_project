@@ -1943,9 +1943,9 @@ MonoBehaviour:
   stiffness: 1500
   damping: 50
   forceLimit: 1000
-  speed: 5
+  speed: 3
   torque: 100
-  acceleration: 5
+  acceleration: 0
   highLightColor: {r: 0, g: 0.03433895, b: 1, a: 1}
 --- !u!114 &61936515
 MonoBehaviour:
@@ -3608,7 +3608,7 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
@@ -9822,7 +9822,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5000
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.304e-42, y: 2.524355e-29, z: 0, w: -0.031049088}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -10699,7 +10699,7 @@ ArticulationBody:
   m_XDrive:
     lowerLimit: -0.1
     upperLimit: 0.07
-    stiffness: 0
+    stiffness: 15000
     damping: 0
     forceLimit: 0
     target: 0
@@ -29234,7 +29234,7 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 4294967295
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
@@ -29484,7 +29484,7 @@ ArticulationBody:
   m_XDrive:
     lowerLimit: -90
     upperLimit: 90
-    stiffness: 0
+    stiffness: 15000
     damping: 0
     forceLimit: 100
     target: 0
@@ -37016,7 +37016,7 @@ ArticulationBody:
   m_XDrive:
     lowerLimit: -0.1
     upperLimit: 0.07
-    stiffness: 0
+    stiffness: 15000
     damping: 0
     forceLimit: 0
     target: 0

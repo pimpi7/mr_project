@@ -18,7 +18,7 @@ public class DisableConcaveCollidersOnArticulationBodies : MonoBehaviour
     {
         Debug.Log("Searching for Articulation Bodies and disabling concave Mesh Colliders...");
 
-        ArticulationBody[] articulationBodies = FindObjectsOfType<ArticulationBody>();
+        ArticulationBody[] articulationBodies = FindObjectsByType<ArticulationBody>(FindObjectsSortMode.None);
 
         if (articulationBodies.Length == 0)
         {
