@@ -3,28 +3,28 @@ using UnityEngine;
 
 public class GripperKeyboardController : MonoBehaviour
 {
-    [Header("Riferimenti ai Giunti del Gripper")]
-    [Tooltip("Assegna l'ArticulationBody del giunto destro del gripper (J3_dx_TOOL1)")]
+    [Header("Reference to gripper joints")]
+    [Tooltip("Assign the ArticulationBody of the right joint gripper (J3_dx_TOOL1)")]
     public ArticulationBody gripperRightJoint;
 
-    [Tooltip("Assegna l'ArticulationBody del giunto sinistro del gripper (J3_sx_TOOL1)")]
+    [Tooltip("Assign the ArticulationBody of the left joint gripper (J3_sx_TOOL1)")]
     public ArticulationBody gripperLeftJoint;
 
     [Header("Parametri di Controllo")]
     [Tooltip("Velocità di apertura e chiusura del gripper in gradi al secondo.")]
     public float speed = 50.0f;
 
-    [Tooltip("L'angolo massimo di apertura per una singola pinza in gradi. Valore positivo.")]
+    [Tooltip("Max opening angle for a single gripper in degrees. Positive value.")]
     public float maxOpeningAngle = 45.0f;
 
-    [Tooltip("L'angolo minimo di chiusura (spesso 0 o un valore leggermente negativo).")]
+    [Tooltip("Minimum close angle (Should be 0).")]
     public float minOpeningAngle = 0.0f;
 
-    [Header("Tasti di Input")]
-    [Tooltip("Tasto per aprire il gripper.")]
+    [Header("Input keys")]
+    [Tooltip("Key for opening the gripper.")]
     public KeyCode openKey;
 
-    [Tooltip("Tasto per chiudere il gripper.")]
+    [Tooltip("Key for closing the gripper.")]
     public KeyCode closeKey;
 
     private float _currentTargetAngle;
@@ -33,7 +33,7 @@ public class GripperKeyboardController : MonoBehaviour
     {
         if (gripperRightJoint == null || gripperLeftJoint == null)
         {
-            Debug.LogError("Assegnare entrambi i giunti del gripper nell'Inspector prima di avviare la scena!");
+            Debug.LogError("ASSIGN THE JOINT GRIPPERS IN THE SCENE!");
             this.enabled = false; 
             return;
         }
@@ -46,11 +46,11 @@ public class GripperKeyboardController : MonoBehaviour
         float movementDirection = 0f;
         if (Input.GetKey(openKey))
         {
-            movementDirection = 1f; // Apri
+            movementDirection = 1f; 
         }
         else if (Input.GetKey(closeKey))
         {
-            movementDirection = -1f; // Chiudi
+            movementDirection = -1f; 
         }
 
         if (movementDirection != 0f)
@@ -72,7 +72,7 @@ public class GripperKeyboardController : MonoBehaviour
         gripperRightJoint.xDrive = rightDrive;
 
         ArticulationDrive leftDrive = gripperLeftJoint.xDrive;
-        leftDrive.target = targetAngleDegrees; // Non serve il segno negativo qui perchè già assegnato sopra
+        leftDrive.target = targetAngleDegrees; 
         gripperLeftJoint.xDrive = leftDrive;
     }
 }
