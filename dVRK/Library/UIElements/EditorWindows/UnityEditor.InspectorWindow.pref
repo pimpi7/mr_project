@@ -31,7 +31,19 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-jointNames__UnityEngine.UIElements.ListView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-jointNames__unity-vertical-collection-scroll-view__UnityEngine.UIElements.ScrollView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-jointNames__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm1ArmJoints__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm1ArmJoints__unity-vertical-collection-scroll-view__UnityEngine.UIElements.ScrollView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm1ArmJoints__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm2ArmJoints__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm2ArmJoints__unity-vertical-collection-scroll-view__UnityEngine.UIElements.ScrollView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-psm2ArmJoints__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   m_Values:
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":108.66668701171875},"firstVisibleIndex":4,"contentPadding":88.0,"contentHeight":648.0000610351563,"anchoredItemIndex":4,"anchorOffset":20.66668701171875},"m_SelectedIds":[6]}'
+  - '{"m_ScrollOffset":{"x":0.0,"y":108.66668701171875}}'
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
+  - '{}'
+  - '{}'
+  - '{}'
   - '{}'
   - '{}'
   - '{}'
