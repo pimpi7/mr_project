@@ -5,8 +5,8 @@
       <author>Assimp</author>
       <authoring_tool>Assimp Exporter</authoring_tool>
     </contributor>
-    <created>2025-10-02T16:39:00</created>
-    <modified>2025-10-02T16:39:00</modified>
+    <created>2025-10-02T16:41:08</created>
+    <modified>2025-10-02T16:41:08</modified>
     <unit name="meter" meter="1" />
     <up_axis>Y_UP</up_axis>
   </asset>
@@ -16,7 +16,7 @@
         <technique sid="standard">
           <phong>
             <emission>
-              <color sid="emission">0   0   0   0</color>
+              <color sid="emission">0   0   0   7.917336323435216e-43</color>
             </emission>
             <ambient>
               <color sid="ambient">0.749019980430603   0.749019980430603   0.749019980430603   0</color>
@@ -65,7 +65,7 @@
   </library_controllers>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Node_00000235151161B0"  name="Node_00000235151161B0" type="NODE">
+      <node id="Node_0000023514CD9BB0"  name="Node_0000023514CD9BB0" type="NODE">
         <matrix sid="matrix">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#meshId0">
           <bind_material>

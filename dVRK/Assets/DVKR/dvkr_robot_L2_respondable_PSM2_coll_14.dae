@@ -5,8 +5,8 @@
       <author>Assimp</author>
       <authoring_tool>Assimp Exporter</authoring_tool>
     </contributor>
-    <created>2025-10-02T16:39:02</created>
-    <modified>2025-10-02T16:39:02</modified>
+    <created>2025-10-02T16:41:10</created>
+    <modified>2025-10-02T16:41:10</modified>
     <unit name="meter" meter="1" />
     <up_axis>Y_UP</up_axis>
   </asset>
@@ -65,7 +65,7 @@
   </library_controllers>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="Node_00000235151161B0"  name="Node_00000235151161B0" type="NODE">
+      <node id="Node_0000023514CD7BC0"  name="Node_0000023514CD7BC0" type="NODE">
         <matrix sid="matrix">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
         <instance_geometry url="#meshId0">
           <bind_material>
